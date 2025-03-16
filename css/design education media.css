@@ -1,0 +1,300 @@
+@media screen and (max-width:1400px) {
+    .button-navbar{
+    }
+    .list-menu h5 {
+        margin-left: 20px;
+        font-weight: 500;
+      }
+      .center-buuton-navbar{
+        width: 25%;
+      }
+      .center-buuton-navbar{
+        display: none;
+      }
+      .left-buuton-navbar{
+        width: 45%;
+      }
+      .right-buuton-navbar{
+        justify-content: space-between;
+        width: 40%;
+      }
+}
+@media screen and (max-width:1000px) {
+  .button-navbar{
+
+  }
+  .list-menu1{
+    display: none;
+  }
+  .menu-part-upper
+  {
+    display: block;
+  }
+  .fa-bars
+{
+    color: white;
+    font-size: 26px;
+    display: block !important;;
+}
+  .design-education h1{
+    font-size: 120px;
+  }
+  .series::after {
+    content: "r";
+    position: absolute;
+    font-size: 69px;
+    height: 65px;
+    width: 63px;
+    border-radius: 100%;
+    right: -91px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(5, 162, 225) 14px;
+  }
+  .left-buuton-navbar{
+    display: none;
+  }
+  .right-buuton-navbar{
+    width:70%;
+  }
+  .obay-agency {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px 10px;
+  }
+  .pase2 {
+    position: relative;
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .learn-figma-card {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-column-gap: 20px;
+  }
+  .box-raper {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width:700px) {
+  .design-education h1 {
+    font-size: 89px;
+  }
+  .series::after {
+    content: "r";
+    position: absolute;
+    font-size: 45px;
+    height: 43px;
+    width: 45px;
+    border-radius: 100%;
+    right: -72px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(5, 162, 225) 14px;
+  }
+  .obay-agency{
+    flex-direction: column;
+    align-items: start;
+  }
+  .deso{
+    padding: 20px 10px;
+  }
+  .image-raper {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .learn-figma-card {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 20px;
+  }
+  .wide-image-containeter {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+  }
+  .box-raper {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 20px;
+    overflow-x: scroll;
+    grid-row-gap: 50px;
+  }
+  .pase4{
+    padding: 10px 5px;
+  }
+  .left-footer {
+    flex-basis: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .left-footer{
+    flex-basis: 40%;
+  }
+  .website{
+    margin-bottom: 30px;
+  }
+  .confrence{
+    margin-bottom: 30px;
+  }
+  .bottom-footer{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .be-pro{
+    display: none;
+  }
+  .submit-website{
+    display: none;
+  }
+  .design-education{
+    padding: 20px 4px;
+  }
+  .design-education h1{
+    font-size: 19vw;
+  }
+  .series::after {
+    content: "r";
+    position: absolute;
+    font-size: 7vw;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    right: -72px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(5, 162, 225) 14px;
+  }
+  .agaency h4{
+    font-size: 6vw;
+  }
+  .nomi{
+    font-size: 12vw;
+  }
+  .dream{
+    padding: 0px;
+  }
+  #anchor{
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .winner-website{
+    flex-direction: column;
+    align-items: center;
+  }
+  .over{
+    flex-direction: column;
+    align-items: center;
+  }
+  .over p{
+    word-break: break-all;
+    text-align: center;
+  }
+  .explore-from{
+    align-items: center;
+    text-align: center;
+  }
+  .find{
+    flex-direction: column;
+    align-items: center;
+  }
+  .name-raper{
+    display: none;
+  }
+
+  .left-footer{
+    flex-basis: 100%;
+    justify-content: center;
+    justify-items: center;
+  }
+  .top-footer{
+    padding-bottom: 200px;
+  }
+  .right-footer{
+    position: absolute;
+    bottom: 51px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+  .connect{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cookies{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .live-container{
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .learn-figma-card{
+    grid-row-gap: 40px;
+  }.jun {
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px;
+    border: solid black 1px;
+    padding: 5px 10px;
+  }
+}
+
+
+@media screen and (max-width:300px) {
+  .site{
+    display: none;
+  }
+  .design-education h1{
+    font-size:35px;
+  }
+  .series::after{
+    display: none;
+  }
+  .international-inside h2{
+    font-size: 14px;
+  }
+  .box{
+    padding: 0px;
+  }
+  .box-top-part{
+    padding: 4px;
+  }
+  .left-wide-text{
+    flex-wrap: wrap;
+  }
+}

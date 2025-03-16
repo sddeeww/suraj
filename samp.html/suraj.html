@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/chor.css">
+    <style>
+        nav ul li a{
+            color: red;
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            animation-name: suraj;
+            animation-timing-function: ease;
+            animation-duration: 8s;
+            animation-delay: 0.1s;
+            animation-iteration-count: infinite;
+        }
+
+        /* @keyframes suraj{
+            0%{transform: translateX(0px);}
+            50%{transform: translateX(100px);} 
+             100%{transform: translateX(-100px);}
+        } */
+        .form h1{
+            font-size: 70px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .form p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 140px;
+        }
+
+        header{
+            width: 85VW;
+            height: 50PX;
+            /* border-style: solid; */
+            /* border-color: red; */
+            border-width: 3px;
+            position: relative;
+            top: 117px;
+            left: 152px;
+        }
+        nav ul li{
+            display: inline-block;
+            margin-left: 99px;
+            color: rgb(242, 232, 232);
+        }
+
+        nav ul li a{
+           color: rgb(142, 10, 10);
+          text-decoration: none;
+          font-size: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+          
+        }
+
+        .box{
+            height: 30px;
+            width: 80vw;
+           /* border-style: solid; */
+            /* border-color: red; */
+            border-width: 2px;
+            display: flex;
+            justify-content: space-evenly;
+            position: relative;
+            top: 155px;
+            left: 142px;
+        
+        }
+
+        .box1{
+            height: 20px;
+            width: 40px;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            text-align: center;
+            background-color: rgb(66, 66, 221);
+            color: white;
+        }
+
+        .box1:hover{
+            background-color: darkorange;
+            /* transform: translate(20px.20px); */
+            transform: translateX(30px);
+            transform: translateY(20px);
+        }
+
+        .line1{
+            display: flex;
+            position: relative;
+            top: 213px;
+            left: 314px;
+        }
+
+        .line2{
+            margin-left: 10px;
+        }
+
+        .secondline{
+            position: relative;
+            top: 210px;
+            left: 350px;
+            display: flex;
+        }
+
+        .line3{
+            margin-left: 10px;
+        }
+
+        .thirdline{
+         
+            position: relative;
+            top: 210px;
+            left: 350px;
+            display: flex;
+
+        }
+
+        
+        .line4{
+            margin-left: 10px;
+        }
+
+        nav ul li a:hover{
+            border-style: solid;
+            border-color: rgb(21, 8, 119);
+            padding: 5px;
+            border-radius: 30px;
+
+        }
+
+        #hello{
+            width: 100px;
+        }
+
+        .black{
+            opacity: 0.2;
+            position: relative;
+            left: 1346px;
+        }
+
+        .white{
+            opacity: 0.2;
+        }
+
+    </style>
+</head>
+
+<input class="black" type="button" value="black theme" onclick="changebacground()">
+
+<input class="black" type="button" value="white theme" onclick="changebacground1()">
+<script>
+    function changebacground(){
+        document.body.style.background="black"
+        document.body.style.color="white"
+    
+    }
+
+    function changebacground1(){
+        document.body.style.background="white"
+        document.body.style.color="black"
+    
+    }
+</script>
+<body id="dark">
+    
+    <div class="form">
+    <h1>online form</h1>
+    <p id="www">www.surajsingh.com</p>
+  </div>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">online form</a></li>
+            <li><a href="#">offline form</a></li>
+            <li><a href="#">admit card</a></li>
+            <li><a href="#">answer key</a></li>
+            <li><a href="#">result</a></li>
+            <li><a href="#">admision</a></li>
+           
+        </ul>
+    </nav>
+  </header>
+  <div class="box">
+    <div class="box1">Hr</div>
+    <div class="box1">Rj</div>
+    <div class="box1">Uk</div>
+    <div class="box1">Hp</div>
+    <div class="box1">Mp</div>
+    <div class="box1">Dl</div>
+    <div class="box1">Gj</div>
+    <div class="box1">Mh</div>
+    <div class="box1">BR</div>
+    <div class="box1">goa</div>
+    <div class="box1">Pb</div>
+    <div class="box1">Jh</div>
+    <div class="box1">Od</div>
+    <div class="box1">Ar</div>
+    <div class="box1" id="hello">other state</div>
+
+  </div>
+
+  <div class="line1">
+    <h3 class="line2" style="color: red;">mp ppoliced constable online form 2023 ||</h3>
+    <h3 class="line2" style="color: green;">up gram panchyat adhikari 2023||</h3>
+    <h3 class="line2"  style="color: rgb(14, 7, 7);">ibps sarkari clrrk vacancy 2023||</h3>
+  </div>
+
+  
+  <div class="secondline">
+    <h3 class="line3" style="color: rgb(53, 21, 211);">jharkhand police vacnay 2023||</h3>
+    <h3 class="line3" style="color: rgb(8, 25, 15);">pandu police vacany 2023 ||</h3>
+    <h3 class="line3" style="color: red;">ibps sarkari clrrk vacancy 2023||</h3>
+  </div>
+
+
+  <div class="thirdline">
+    <h3 class="line4" style="color: rgb(235, 191, 14);">chaprashi new vacany 2023||</h3>
+    <h3 class="line4" style="color: rgb(97, 10, 190);">arrmy new vacany 2023|| </h3>
+    <h3 class="line4" style="color: rgb(204, 26, 26);">arrmy truck driver new vacany 2023||</h3>
+
+  </div>
+
+  <div class="lastline" id="lastline">
+    <h3 class="line2" style="color: red;">mp ppoliced constable online form 2023 ||</h3>
+    <h3 class="line2" style="color: green;">up gram panchyat adhikari 2023||</h3>
+    <h3 class="line2"  style="color: rgb(14, 7, 7);">ibps sarkari clrrk vacancy 2023||</h3>
+  </div> 
+
+  <div class="box3">
+    <div class="box4" id="a1">
+         <h3>Mp police constable online form 2023</h3>
+    </div>
+
+
+
+
+    <div class="box4" id="a2">
+        <h3>Ips crp cleark 2023</h3>
+    </div>
+
+    <div class="box4" id="a3">
+        <h3>UPPPsC enforment constable online form</h3>
+    </div>
+
+    <div class="box4" id="a4">
+        <h3>Haryana collage addmision 2023</h3>
+    </div>
+
+    <div class="box4" id="a5">
+        <h3>arrrmy vacany admit card 2023</h3>
+    </div>
+
+    <div class="box4" id="a6">
+        <h3>west india reailway vacany 2023</h3>
+    </div>
+
+    <div class="box4" id="a7">
+        <h3>bihar police constable vacany 2023</h3>
+    </div>
+
+    <div class="box4" id="a8">
+        <h3>rajsthan ploice vacany 2023 -5000 post</h3>
+    </div>
+  </div>
+  
+
+  <div class="photo" id="forimage">
+    <div class="photo4">
+        <img src="../images/defence.jpg" width="200px" height="200px"/>
+        <h2><span>defence job</span></h2>
+    </div>
+
+    <div class="photo4" id="forimage">
+        <img src="../images/banking.jfif" width="160px " height="180px"/>
+        <h2><span>Railway Job</span></h2>
+         </div>
+
+
+    <div class="photo4" id="forimage">
+        <img src="../images/india.jfif" width="200px" height="200px"/>
+        <h2><span>All india job</span></h2>
+    </div>
+
+
+    <div class="photo4" id="forimage">
+        <img src="../images/railway.jfif" width="200px" height="200px"/>
+        <h2><span>railway job</span></h2>
+    </div>
+  </div>
+  
+  
+  <div class="section1" id="section1">
+      <h2><span>Admit card for all exam</span></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tenetur voluptatibus qui maxime? Eligendi iure, voluptatibus quasi omnis explicabo necessitatibus vitae exercitationem suscipit tempore quam placeat itaque temporibus fugit repellendus.l;orem200
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis modi sequi quas error repellat. Nostrum, accusamus. Maiores recusandae nesciunt laborum quam ipsam rerum qui ipsa tempore natus dolorum quo mollitia, optio dolores quas magni cum repudiandae, est ducimus dolor corporis! Eveniet accusamus expedita labore quos similique. Sit ut aliquam atque ipsa modi maxime earum in enim repellendus asperiores. Iste beatae adipisci, impedit perferendis consequatur numquam ipsum architecto molestiae temporibus, odio porro autem laboriosam quasi nobis, nam incidunt perspiciatis dolorem ut repellat ratione? Sunt pariatur, atque nulla cum rerum dolores voluptatem! Accusantium adipisci sequi dicta, quos, nesciunt qui, cupiditate doloribus vero aperiam possimus soluta explicabo molestiae beatae minima. Optio, numquam nisi. Aut sit a numquam beatae dicta, rerum inventore sapiente sequi ea asperiores natus veritatis velit, recusandae delectus temporibus dolores sed nulla nemo eveniet cum vero illo quos repudiandae? Pariatur, ab hic accusamus excepturi sunt ad voluptatibus necessitatibus doloribus quos tempore sed aspernatur obcaecati corrupti! Iste voluptatum voluptate magni quia nulla, vel optio ea animi exercitationem quo reprehenderit dolores veniam corporis, ratione voluptas quisquam at. Quod saepe facere molestiae assumenda quas sequi recusandae, delectus quos vitae cum blanditiis maiores repudiandae rerum optio odit veniam, quidem neque hic deserunt iste laboriosam. Exercitationem!
+    </p>
+  </div>
+
+  <div class="section1"  id="section1">
+    <h2><span>rajsthan police vacany 2023</span></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tenetur voluptatibus qui maxime? Eligendi iure, voluptatibus quasi omnis explicabo necessitatibus vitae exercitationem suscipit tempore quam placeat itaque temporibus fugit repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore obcaecati ipsa maiores perferendis blanditiis porro, debitis laudantium atque est eos quidem neque aperiam nemo voluptatibus tenetur saepe veniam similique quasi. Qui tempore excepturi explicabo deserunt necessitatibus, cumque consequuntur quae aperiam optio sint impedit enim repellendus dignissimos non odit deleniti illum numquam. Odio enim totam accusantium natus aperiam voluptatem unde, harum saepe, quam iure soluta amet non obcaecati minima eligendi! Assumenda fugit unde provident perspiciatis doloribus, facere, consequuntur atque vero corporis, modi natus! Alias optio laudantium perspiciatis? Sint aliquid culpa, quisquam voluptas omnis corrupti itaque ipsa magni porro amet, beatae laudantium voluptatem corporis reiciendis eos? Rem similique provident eius, non qui voluptas sed doloribus dignissimos, maxime possimus temporibus? Quae vel laborum autem cumque ab ea delectus voluptate molestiae! Expedita sunt deleniti hic placeat tenetur dolore est, iure porro a dolores, quidem error officia, debitis vitae reprehenderit unde maiores veniam cum amet. Architecto quod quia eum aliquam. Ipsam vitae quis laboriosam, natus error ut, nostrum modi quos, minima odio culpa blanditiis minus obcaecati labore dolores totam dolorem vero reiciendis exercitationem molestiae! Rem tempora voluptatibus qui blanditiis ad beatae debitis maxime quo quos corporis vel fuga tempore, laboriosam architecto? Exercitationem, tempore quaerat.</p>
+  </div>
+
+
+  <div class="section1"  id="section1">
+    <h2><span>Deldhi police vacany 2023</span></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tenetur voluptatibus qui maxime? Eligendi iure, voluptatibus quasi omnis explicabo necessitatibus vitae exercitationem suscipit tempore quam placeavtv Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis molestias voluptatibus beatae? Ut facilis fugiat repudiandae excepturi quaerat neque dolor consequatur omnis dolore nihil, adipisci doloribus optio voluptate sequi. Sunt dolore quas, tenetur sequi rerum deleniti, aut suscipit accusantium quod illo illum minima ipsa. Est dolore alias similique laudantium dicta, nostrum ea dolor corporis, eius quae nisi consequatur hic, obcaecati enim! Tenetur asperiores nisi aliquid delectus, a, quae harum, expedita ab eligendi rem dolores voluptatum quia odio alias consectetur commodi mollitia obcaecati. Sint provident quam asperiores praesentium obcaecati consequuntur iste quae tempore molestias, minima vero excepturi deserunt dolorem facilis? Corporis, sed. Sed impedit, aut aspernatur laborum nostrum at repudiandae quo reprehenderit culpa aliquid. Nulla nesciunt laudantium dolores ullam dolore perspiciatis totam saepe inventore libero, odit, magni, officia quo? Ad architecto enim quasi dolor blanditiis vero aliquam ipsam natus at nesciunt fugiat similique eum expedita, a reprehenderit, ab possimus autem debitis consequuntur eos tenetur molestiae nemo est! Unde dolore numquam eveniet commodi vitae consequuntur ab sed dolorum asperiores iste obcaecati, quia totam provident quos adipisci repellat ex? Labore tenetur sunt esse tempore non in quaerat consequuntur veniam impedit, sit voluptates! Enim perspiciatis minus quasi accusamus animi distinctio corporis soluta aperiam a. itaque temporibus fugit repellendus.</p>
+  </div> 
+
+  <footer>
+    <h2><span>*</span>Disclaimer <span>*</span>privacy policy <span>*</span>Terms and condition <span>*</span>About us</h2>
+
+    <section>
+        <h2>Copyright@2023-2024 oline form(powered by suraj singh)</h2>
+    </section>
+  </footer>
+
+  
+</body>
+</html>

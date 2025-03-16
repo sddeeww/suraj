@@ -1,0 +1,86 @@
+@media (min-width:900px) and (max-width:1200px)   {
+    nav{
+        position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: red;
+    }
+}
+input[type="text"] {
+    width: 100%;
+    padding: 5px 7px;
+ 
+  }
+  .submit-button button {
+    border: none;
+    padding: 7px 17px;
+   
+  }
+  .navbar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .center-navbar{
+    width: 55%;
+    position: relative;
+}
+.right-navbar{
+    display: none;
+}
+.main-navbar-first{
+    padding-top: 130px;
+}
+.main-navbar-first ul{
+    display: none;
+}
+.pase1-sliding-part{
+    padding: 20px 3%;
+}
+.deals-main{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.dels-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    background-color: white;
+  }
+  .delas-raper{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .dels-of-the-day-container{
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+.dels-of-the-raper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center,space-around;
+}
+.dels-of-the-day-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    }
+.pase3-dels-of-the-day{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    padding: 0px 5%;
+}

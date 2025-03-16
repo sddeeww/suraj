@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: rgb(255, 252, 252);
+    text-transform: capitalize;
+}
+html,body{
+    height: 100%;
+    font-size: 20px;
+    width: 100%;
+    background-color: #111111;
+}
+:root{
+--paragraph-size:0.7rem;
+--h1-main-size:1.5rem;
+}
+
+
+/* navbar start  */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(10, 10, 10);
+    padding: 2vw 6vw 2vw 6vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.left-part svg{
+    width: 130px;
+}
+.center-part{
+    position:relative;
+    display: inline-block;
+}
+#center-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .9rem;
+    white-space: nowrap;
+}
+.center-part ul li{
+    list-style-type: none;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+.center-bottom-part{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    bottom: -240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 3.5rem;
+}
+.part1{
+    display: none;
+}
+.part1 ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.part1 ul li{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
+    /* overflow: hidden; */
+}
+.right-part{
+    display: inline-block;
+    
+}
+.let-talk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    gap: 8px;
+}
+.let-talk i{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.let-talk p{
+    font-size:var(--paragraph-size);
+}
+
+.border-bottom{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 0.4vh;
+    background-color: #111111;
+    top:100%;
+    border-bottom: solid white 2px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+

@@ -1,0 +1,1091 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.repaer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+:root {
+  --fontfaimaly: "Barlow Condensed", sans-serif;
+  --maincolor: white;
+}
+
+.for-paragraph{
+    font-family:  'Sora', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* navbar start  ❤️ */
+
+.navbar{
+    z-index: 200;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 20px 2%;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+    color: white !important;
+}
+
+.left-logo img{
+ height: 70px;
+}
+
+
+.center-menu-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:3vw;
+}
+
+.center-menu-list ul li{
+    list-style-type: none;
+}
+.center-menu-list ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.right-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+    /* width: 300px; */
+    /* display: none; */
+    visibility: none;
+    visibility: collapse;
+}
+
+.right-menu h1{
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+    padding: 20px 20px;
+}
+.menu-bar-right-side i{
+    font-size: 28px;
+    display: block;
+}
+
+.reserve-word{
+position: relative
+}
+.for-reserve-your-id{
+    position: absolute;
+    top: 19px;
+    left: 2px;
+    display: none;
+    right: 0px;
+}
+.reserve-word:hover .for-reserve-your-id{
+    display:block;
+}
+form{
+    position: relative;
+}
+fieldset{
+    /* border: none; */
+    padding: 20px 30px 10px 30px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    animation-name:for-fielset-background  ;
+    animation-duration: 70s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes for-fielset-background {
+    0%{
+        background-color: black;
+    }
+    10%{
+        background-color: rgb(132, 0, 0);
+    }
+    20%{
+        background-color: rgb(61, 46, 0);
+    }
+    30%{
+        background-color: rgb(132, 0, 255);
+    }
+    40%{
+        background-color: rgb(85, 0, 58);
+    }
+    50%{
+        background-color: rgb(0, 98, 94);
+    }
+    60%{
+        background-color: black;
+    }
+    70%{
+        background-color: black;
+    }
+    80%{
+        background-color: rgb(120, 0, 96);
+    }
+    90%{
+        background-color: rgb(13, 0, 77);
+    }
+    100%{
+        background-color: rgb(1, 67, 0);
+    }
+}
+fieldset label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    color: yellow;
+    margin-bottom: 4px;
+}
+fieldset input{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(6, 24, 39);
+    color: white;
+    border: none;
+}
+
+.for-button-form{
+width:100%;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.for-button-form button{
+    width: 50%;
+    padding: 6px 10px;
+    text-transform: capitalize;
+    border: none;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 3px red;
+    border-radius: 3px;
+    position: relative;
+
+}
+#span-for-style{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    right: 0px;
+    top: 0px;
+    /* background-color: red; */
+
+}
+.for-button-form button:hover{
+    box-shadow: 0px 0px 5px cyan;
+}
+
+.kaiseho-applog{
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    background-color: aqua;
+    opacity: 0.3;
+    box-shadow: 0px 0px 20px 37px aqua;
+    top: 53px;
+    transition-property: transform;
+    transition-duration: 0.9s;
+    transition-timing-function: linear;
+    right: -20px;
+    rotate: 30deg;
+}
+
+fieldset:hover .kaiseho-applog{
+    transform: translateX(-220px);
+}
+/* navbar last  */
+
+
+/* .pase 1  start  */
+
+
+.pase1{
+    z-index: 100;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3,100vw);
+    grid-template-rows: repeat(1,100vh);
+}
+
+.pase1-for-top-wallpaper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+    bottom: 00px;
+    left: 0px;
+    right: 0px;
+z-index: 1000;
+}
+
+
+.cards1{
+    background: linear-gradient(to right,rgba(71, 71, 71, 0.23),rgba(44, 44, 44, 0.27)),url(../images/pasta\ background.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: hello2;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 10s;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    animation-direction: alternate;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  z-index: 100;
+}
+@keyframes hello2 {
+    0%{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        z-index: 100;
+    }
+    100%{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        z-index: 500;
+    }
+}
+
+.card-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.cards2{
+    background: url(../images/cibo-bali-italian-restaurant-1560684552.jpeg);
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name:hello;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    animation-duration: 10s;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    z-index: 100;
+}
+
+@keyframes hello {
+    0%{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        z-index: 100;
+    }
+    100%{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        z-index: 500;
+    }
+}
+
+
+
+.cards3{
+    width: 100vw;
+    background: url(../images/egg-1560684276.jpg);
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    animation-name:hello1;
+    background-size: cover;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    animation-duration: 20s;
+    order: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    z-index: 100;
+    animation-delay: 10s;
+  
+}
+
+@keyframes hello1 {
+    0%{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        z-index: 100;
+    }
+    100%{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        z-index: 500;
+    }
+}
+
+.card-menu-header{
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: capitalize;
+    text-shadow: 4px 3px 5px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+.menu-card-h2-tag{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: white;
+}
+.us{
+    background-color: red; border: none;
+}
+.contact-us{
+    width: 50%;
+    position:relative;
+    padding: 20px 20px;
+    left: 50%;
+    transform:translateX(-50%);
+    color: white;
+    font-family: 'Crimson Text', serif;
+     border: solid yellow 4px;
+     background-color: transparent;
+     font-size: 20px;
+     text-transform: capitalize;
+     transition-property:color , background-color;
+     transition-duration: 0.4s;
+     transition-timing-function: linear;
+}
+.contact-us:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.menu2{
+    width: 50%;
+}
+.reserve-word{
+    position: relative;
+}
+
+.fol-line{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: -7px;
+    top: 0px;
+
+}
+.fol-line::before{
+content: "!";
+color: yellow;
+position: absolute;
+right: 0px;
+top: 0px;
+}
+
+.list-hover-effect{
+    position: relative;
+    width: fit-content;
+}
+.list-hover-effect::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(88, 230, 249, 0.438);
+    transition-property: width;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    animation-name: suraj;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.list-hover-effect::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: rgb(64, 255, 131);
+    bottom: 0px;
+    right: 0px;
+    transition-property: width;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    animation-name: singh;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes suraj {
+    0%{
+        background-color: green;
+    }
+    10%{
+        background-color: rgb(236, 229, 27);
+    }
+    
+    20%{
+        background-color: rgb(40, 213, 222);
+    }
+    
+    30%{
+        background-color: rgb(50, 59, 222);
+    }
+    
+    40%{
+        background-color: rgb(229, 105, 190);
+    }
+    
+    50%{
+        background-color: red;
+    }
+    
+    60%{
+        background-color: rgb(35, 148, 13);
+    }
+    
+    70%{
+        background-color: rgb(3, 120, 244);
+    }
+    
+    80%{
+        background-color: rgb(152, 245, 255);
+    }
+    
+    
+    90%{
+        background-color: rgb(208, 98, 116);
+    }
+    
+    
+    100%{
+        background-color: rgb(42, 253, 165);
+    }
+    
+}
+@keyframes singh {
+    0%{
+        background-color: green;
+    }
+    10%{
+        background-color: rgb(236, 229, 27);
+    }
+    
+    20%{
+        background-color: rgb(40, 213, 222);
+    }
+    
+    30%{
+        background-color: rgb(50, 59, 222);
+    }
+    
+    40%{
+        background-color: rgb(229, 105, 190);
+    }
+    
+    50%{
+        background-color: red;
+    }
+    
+    60%{
+        background-color: rgb(35, 148, 13);
+    }
+    
+    70%{
+        background-color: rgb(3, 120, 244);
+    }
+    
+    80%{
+        background-color: rgb(152, 245, 255);
+    }
+    
+    
+    90%{
+        background-color: rgb(208, 98, 116);
+    }
+    
+    
+    100%{
+        background-color: rgb(42, 253, 165);
+    }
+    
+}
+
+
+
+.list-hover-effect:hover::before{
+    width: 100%;
+}
+.list-hover-effect:hover::after{
+    width: 100%;
+}
+/* section 2 start  */
+
+
+.section2{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    padding: 80px 5%;
+    justify-content: center;
+    background: url(https://cibobali.com/lumonata-content/themes/dinara/assets/images/brand-new-pattern.svg);
+    background-repeat: no-repeat;
+    align-items: baseline;
+}
+.about-word{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: coral;
+    transform:rotate(-90deg);
+    position: relative;
+    top: 10px;
+    transform-origin:bottom;
+}
+.italian-resturent{
+    position: relative;
+    flex-basis: 50%;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.italian-resturent-deli{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* section3 start  */
+
+.section3{
+    position:relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px;
+     grid-auto-rows:1fr;
+     background-color: #00b7ff66;
+}
+.left-image-part-section3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.left-image-part-section3 figure img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+}
+
+.right-about-part-section3{
+    position: relative;
+    padding: 80px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+.born-with{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+/* sceton4 start  */
+
+.dish-menu{
+    position: relative;
+    width: 100%;
+    background-color: #ffce39;
+    /* background-color: black; */
+    text-align: center;
+    z-index: 300;
+    overflow: hidden;
+}
+.span-for-pattern{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 74%;
+    left: 0px;
+    background-image: url(https://cibobali.com/lumonata-content/themes/dinara/assets/images/pattern-short-white.svg);
+    
+}
+.veg-menu{
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 100;
+    background-color: #ffce39;
+    font-size: 34px;
+    /* background-color: #ffce39; */
+    padding: 70px 0px;
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+/* section 5 start  */
+
+.section5{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.for-under-text{
+    position: relative;
+    text-align: justify;
+    width: 43%;
+}
+.for-under-text h2{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:500;
+}
+
+/* sction 5last  */
+
+/* secvtion 6 start  */
+
+
+.section6{
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+  
+}
+
+.resturent-dish-navbar{
+    border-top: double yellow 4px;
+    border-bottom: double yellow 4px;
+    position: relative;
+    padding: 20px 20px;
+    width: 100%;
+}
+.resturent-dish-navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.resturent-dish-navbar ul li{
+    list-style-type: none;
+
+}
+
+.resturent-dish-navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.407);
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.resturent-dish-navbar ul li a:hover{
+    color: black;
+}
+
+.resturent-dish-fiss{
+    position: relative;
+    width: 100%;
+    padding: 0px 15%;
+}
+.soup-heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.soup-for-flex{
+    width: 100%;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: baseline;
+    white-space: nowrap;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.tortilini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-part-soup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.center-soup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.soup-section{
+    margin-bottom: 100px;
+}
+
+.small{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    display: none;
+    }
+    
+    .flex-for-small-menu{
+        padding:20px 9% 40px 9%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid rgb(255, 181, 34) 3px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .flex-for-small-menu h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    .flex-for-small-menu span i{
+        transform: rotate(90deg);
+        font-size: 20px;
+      color: red;
+    }
+    
+    .top-border-menu{
+        border-top: solid rgb(255, 181, 34) 3px;
+    }
+
+
+/* section 7 start  */
+
+.section7-vaterian{
+    width: 100%;
+    position: relative;
+}
+
+.veg{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffce39;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+.span2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -70%;
+    left: 0px;
+    background-image: url(https://cibobali.com/lumonata-content/themes/dinara/assets/images/pattern-short-white.svg);
+}
+
+.galary{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0px;
+
+}
+.galary h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+.gallary-navbar{
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    border-top: double  #ffce39 3px;
+    border-bottom: double 3px  #ffce39;
+}
+
+.gallary-navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gallary-navbar ul li{
+    list-style-type: none;
+    position: relative;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.gallary-navbar ul li:hover{
+transform: translateY(-5px);
+}
+.gallary-navbar ul li:hover #color{
+    box-shadow: 0px 10px 10px rgb(179, 0, 255);
+    background-color: rgb(128, 255, 0);
+}
+
+
+
+.gallary-navbar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 10px;
+    overflow: hidden;
+    border-radius: 20px;
+  background-color: black;
+}
+/* .gallary-navbar ul li a:hover */
+
+/* {
+    background-color: rgb(0, 255, 0);
+    transform: translateY(-20px) !important;
+} */
+
+.card{
+    height: 500px;
+    width: 370px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card-devide{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.one-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.two-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.two-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.card img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition-property:transform;
+    transition-duration: 0.4s;
+    object-fit: cover;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.testutent-image-part{
+    position: relative;
+    padding: 20px 10%;
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,330px));
+    justify-content: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+
+/* follow mw on instagram start  */
+
+
+.section8-insta-follow{
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    padding: 10px 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    background-color: #d1ebed;
+}
+
+.daily-feed{
+    /* transform-origin:center; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    color: chocolate;
+    transform: translateY(60px);
+    writing-mode: vertical-lr;
+    /* transform: rotate(90deg) translateY(50px); */
+
+}
+
+
+/* partnership start  */
+
+.paretnrship{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,400px);
+}
+
+.left-partnership{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 20%;
+}
+
+.right-partnrship{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.right-partnrship  img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    object-fit: cover;
+    top: 0px;
+    /* width: 100%
+    object-fit: cover;
+    height: 500px; */
+}
+
+.whenever{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+
+/* fotter start  */
+
+
+footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 5%;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    margin-bottom: 40px;
+   
+}
+
+.footer-flex{
+display: flex;
+flex-direction: column;
+gap:10px;
+}

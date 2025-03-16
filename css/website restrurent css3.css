@@ -1,0 +1,302 @@
+@media (width<1200px) and (width>992px) {
+  .navbar {
+  }
+  .pase1 {
+    grid-template-columns: repeat(3, 100vw);
+    grid-template-rows: repeat(1, 60vh);
+  }
+  .cards2 {
+    height: 60vh;
+  }
+  .cards1 {
+    height: 60vh;
+  }
+  .cards3 {
+    height: 60vh;
+  }
+}
+@media (width>1200px) {
+  .pase1 {
+    grid-template-rows:100vh !important;
+  }
+}
+
+@media (width<991px) and (width>768px) {
+  .navbar {
+  }
+  .pase1 {
+    grid-template-columns: repeat(3, 100vw);
+    grid-template-rows: 60vh !important;
+  }
+  .section3 {
+    grid-template-columns: 1fr !important;
+  }
+  .right-about-part-section3 {
+    padding: 60px 70px;
+  }
+  .resturent-dish-fiss {
+    padding: 0px 3% !important;
+  }
+  .section8-insta-follow {
+    justify-content: space-around;
+  }
+  .daily-feed {
+    transform: translateY(0px) !important;
+    writing-mode: horizontal-tb !important;
+  }
+  .section8-insta-follow {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (width<768px) and (width>576px) {
+  .left-logo img {
+    height: 40px !important;
+  }
+  .center-menu-list {
+    display: none;
+  }
+
+
+  .pase1 {
+    grid-template-columns: repeat(3, 100vw);
+    grid-template-rows: 60vh !important;
+  }
+  .section3 {
+    grid-template-columns: 1fr !important;
+  }
+  .right-about-part-section3 {
+    padding: 60px 70px;
+  }
+  .resturent-dish-fiss {
+    padding: 0px 3% !important;
+  }
+  .section8-insta-follow {
+    justify-content: space-around;
+  }
+  .daily-feed {
+    transform: translateY(0px) !important;
+    writing-mode: horizontal-tb !important;
+  }
+  .section8-insta-follow {
+    margin-bottom: 20px;
+  }
+  .section2 {
+    flex-direction: column !important;
+    align-items: center !important;
+    background: transparent !important;
+  }
+  .about-word {
+    transform: rotate(0deg) !important;
+    text-align: center !important;
+  }
+  .for-under-text {
+    position: relative;
+    text-align: justify;
+    width: 90% !important;
+    border-bottom: solid rgba(0, 0, 0, 0.108) 1px;
+    padding-bottom: 20px;
+  }
+  .resturent-dish-navbar {
+    display: none;
+  }
+  .section8-insta-follow {
+    white-space: nowrap !important;
+  }
+  footer {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .resturent-dish-fiss {
+    display: none !important;
+  }
+  .small {
+    display: block !important;
+  }
+  .right-menu{
+    visibility: visible !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width<576px) {
+  .left-logo img {
+    height: 40px !important;
+  }
+  .center-menu-list {
+    display: none;
+  }
+  .right-menu{
+    visibility: visible !important;
+  }
+
+  .pase1 {
+    grid-template-columns: repeat(3, 100vw);
+    grid-template-rows: 40vh !important;
+  }
+  .section3 {
+    grid-template-columns: 1fr !important;
+  }
+  .right-about-part-section3 {
+    padding: 10px 10px !important;
+  }
+  .resturent-dish-fiss {
+    padding: 0px 3% !important;
+  }
+  .section8-insta-follow {
+    justify-content: space-around;
+  }
+  .daily-feed {
+    transform: translateY(0px) !important;
+    writing-mode: horizontal-tb !important;
+  }
+  .section8-insta-follow {
+    margin-bottom: 20px;
+  }
+  .section2 {
+    flex-direction: column !important;
+    align-items: center !important;
+    background: transparent !important;
+  }
+  .about-word {
+    transform: rotate(0deg) !important;
+    text-align: center !important;
+  }
+  .for-under-text {
+    position: relative;
+    text-align: justify;
+    width: 90% !important;
+    border-bottom: solid rgba(0, 0, 0, 0.108) 1px;
+    padding-bottom: 20px;
+  }
+  .resturent-dish-navbar {
+    display: none;
+  }
+  .section8-insta-follow {
+    white-space: nowrap !important;
+  }
+  footer {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .resturent-dish-fiss {
+    display: none !important;
+  }
+  .small {
+    display: block !important;
+  }
+  .navbar {
+  }
+  /* .right-menu {
+    display: block !important;
+  } */
+  .card-menu {
+    gap: 15px !important;
+  }
+  .card-menu-header {
+    font-size: 38px !important;
+  }
+  .menu2 {
+    width: 100% !important;
+  }
+  .paretnrship {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(2, 400px) !important;
+  }
+  .left-partnership{
+    padding: 0px 2% !important;
+  }
+  .section8-insta-follow{
+    flex-direction:column !important;
+  }
+      
+.gallary-navbar ul li a{
+  font-size:10px !important ;
+}
+.gallary-navbar ul{
+  gap: 20px !important;
+}
+
+
+
+}
+
+
+@media (width<428px) {
+    body{
+        word-break: break-all !important;
+    }
+    .pase1 {
+        grid-template-columns: repeat(3, 100vw);
+        grid-template-rows:max-content !important;
+        padding-bottom: 40px !important;
+      }
+      .section3 {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 300px 1fr;
+      }
+      .veg1{
+        font-size: 6vw;
+      }
+      .card{
+      height: 300px !important;
+      width: 100% !important;
+    }
+    .testutent-image-part{
+        padding: 0px 0% !important;
+        margin-top: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:80% !important;
+        /* justify-content: center !important; */
+    }
+    .contact-us{
+      padding: 5px 5px !important;
+      font-size: 13px !important;
+      word-break: break-all !important;
+    }
+    .menu-card-h2-tag1{
+      font-size: 13px !important;
+    }
+    .gallary-navbar ul{
+      flex-direction:column !important;
+      align-items: center;
+      gap: 90px;
+  }
+  .gallary-navbar ul li a{
+    color: black !important;
+    font-size: 14px !important;
+    padding: 5px 10px !important;
+    background-color: transparent !important;
+  }
+}
+
+
+
+@media (width<345px) {
+  .reserve-button-menu{
+    display: none;
+  }
+  .navbar{
+    flex-wrap: wrap;
+  }
+}

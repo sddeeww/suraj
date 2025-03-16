@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    /* overflow: hidden; */
+    cursor: pointer;
+    text-transform: capitalize;
+    white-space: nowrap;
+    color: white;
+}
+html,body{
+    height: 100%;
+    font-size: 40px;
+    background-color: black;
+    width: 100%;
+}
+:root{
+    --color:white;
+    --itag:0.3rem;
+    --paragraph_font_size:0.4rem;
+    --main_head_font_size:0.8rem;
+    --backgorund_color_page-wise:#121212
+}
+
+
+nav{
+    position: relative;
+    width: 100%;
+    background-color:#2E1E0A;
+    padding: 13px 50px;
+    border-bottom: solid white 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.navbar-left{
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.nav-list-part ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-logo-part{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-go{
+    display: flex;
+    gap: 10px;
+    border: solid red 2px;
+    padding: 4px 5px;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+.nav-go span h3{
+    font-size:13px;
+}
+
+.nav-list-part ul li{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.search-box{
+    position: relative;
+    background-color: #3C3021;
+    margin-right: 20px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.search-box input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+}
+.search-box i{
+    font-size: 16px;
+}
+.image-container{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+.fa-user{
+    font-size: 27px;
+}

@@ -1,0 +1,428 @@
+@keyframes singh{
+    0%{transform: translateX(opx);}
+    50%{transform: translateX(200px);}
+}
+
+.line1{
+    animation-name: singh;
+
+animation-timing-function: linear;
+animation-duration: 6s;
+animation-delay: 3s;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes secondline{
+    0%{transform: translateX(opx);}
+    50%{transform: translateX(-200px);}
+}
+
+.secondline{
+   animation-name: secondline;
+
+animation-timing-function: linear;
+animation-duration: 6s; 
+animation-delay: 4s;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes thirdline {
+    0%{transform: translateX(opx);}
+    50%{transform: translateX(200px);}
+}
+
+    .thirdline{
+animation-name: thirdline;
+animation-duration: 6s; 
+animation-delay: 8s;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes lastline {
+    0%{transform: translateX(opx);}
+    50%{transform: translateX(200px);}
+}
+.lastline{
+    position: relative;
+    bottom: -209px;
+    display: flex;
+    left: 361px;
+animation-name: lastline;
+animation-duration: 6s; 
+animation-delay: 3s;
+animation-iteration-count: infinite;
+    
+}
+
+.box3{
+    /* border-style: solid;
+    border-color: red; */
+    border-width: 3px;
+    display: flex;
+    width: 90vw;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    margin-top: 280px;
+
+}
+
+.box4{
+    /* border-style: solid;
+    border-color: green; */
+    height: 100%;
+    width: 295px;
+    margin-left: 30px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.box4 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 10px ;
+    color: white;
+}
+
+#a1{
+    background-color: brown;
+}
+
+#a2{
+    background-color: rgb(23, 19, 216);
+}
+
+#a3{
+    background-color: rgb(65, 12, 94);
+}
+
+#a4{
+    background-color: rgb(196, 22, 22);
+}
+#a5{
+    background-color: rgb(80, 7, 75);
+}
+
+#a6{
+    background-color: rgb(12, 75, 28);
+}
+
+#a7{
+    background-color: rgb(114, 42, 165);
+}
+
+#a8{
+    background-color: rgb(12, 2, 22);
+}
+
+
+#a1:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+#a2:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+#a3:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+#a4:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+#a5:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+#a6:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+#a7:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+#a8:hover{
+    transform: translate(30px ,10px);
+    background-color: darkblue;
+}
+
+
+.photo{
+    display: flex;
+    margin-left: 207px;
+     margin-top: 120px;
+}
+
+
+.photo4{
+    margin-left: 60px;
+}
+
+.photo4 img{
+    
+    border-radius: 100px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+}
+.photo4 h2{
+    /* border-style: solid;
+    border-color: brown; */
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(2, 59, 90);
+    color: white;
+    border-radius: 30px;
+}
+
+
+.photo4 img:hover{
+   transform: rotatez(20deg);
+  
+}
+
+#forimage img:hover{
+    transform: translateX(10px);
+}
+
+
+.section1{
+    width: 90vw;
+    /* border-style: solid;
+    border-color: red; */
+    margin-left: 66px;
+    margin-top: 70px;
+}
+
+.section1 h2{
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.section1 p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(3, 3, 76);
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer h2{
+    color: white;
+    font-size: 19PX;
+    padding-top: 10px;
+}
+
+footer span{
+    color: red;
+}
+
+@media (max-width:360px){
+    .form h1 {
+        text-align: center;
+        position:relative ;
+        bottom: 30px;
+    }
+}
+
+
+@media (max-width:360px){
+    .form p  {
+       padding-left: 100px;
+        
+    }
+}
+
+@media (max-width:360px){
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+
+@media (max-width:360px){
+    header nav {
+        position: relative;
+        right: 30px;
+        padding-bottom: 50px;
+        bottom: 30px;
+        background-color: yellow;
+    }
+}
+
+
+@media (max-width:360px){
+    header nav ul li a {
+       font-size: 15px;
+       line-height: 30px;
+    }
+}
+
+
+
+@media (max-width:360px){
+    .box {
+        width: 15vw;
+    }
+}
+
+
+
+
+@media (max-width:360px){
+    .box {
+       margin-right: 100px;
+    }
+}
+
+
+@media (max-width:360px){
+    .line1 {
+      flex-direction: column;
+      margin-top: 10px;
+      animation: none;
+      justify-content: center;
+    }
+}
+
+
+@media (max-width:360px){
+    .line2  {
+      font-size: 18px;
+      position: relative;
+      right: 320px;
+    }
+}
+
+@media (max-width:360px){
+    .secondline {
+      flex-direction: column;
+      margin-left: 10px;
+      animation: none;
+      justify-content: center;
+    }
+}
+
+@media (max-width:360px){
+    .line3 {
+      font-size: 18px;
+      position: relative;
+      right: 300px;
+      animation: none;
+    }
+}
+
+@media (max-width:360px){
+    .lastline {
+      flex-direction: column;
+      margin-left: 10px;
+      animation: none;
+      justify-content: center;
+      
+    }
+}
+@media (max-width:360px){
+   header{
+    display: flex;
+}
+}
+
+
+
+
+@media (max-width:360px){
+    .thirdline {
+      flex-direction: column;
+      margin-left: 10px;
+      animation: none;
+      
+    }
+}
+
+@media (max-width:360px){
+    .line4 {
+      font-size: 18px;
+      position: relative;
+      right: 320px;
+      animation: none;
+    }
+}
+
+
+
+
+@media (max-width:360px  ){
+    .photo {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     position: relative;
+     right: 200px;
+    }
+}
+
+
+@media (max-width:360px){
+    .section1 h2,p {
+      text-align: center;
+      padding-right: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: green;
+    }
+}
+
+
+
+      
+
+footer{
+   margin-bottom: 200px;
+    padding: 50px 0px ;
+}
+
+@media (max-width:360px){
+    footer h2{
+        font-size: 16px;
+    }
+ }
+ 
+
+ @media (max-width:360px){
+   .box3{
+    padding-right: 20px;
+   }
+ }
+ 
+
+ @media (max-width:360px){
+   .line1 .line2{
+    
+
+   }
+  }
+  
+ 
+  

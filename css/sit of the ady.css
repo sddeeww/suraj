@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+  .navbar-main {
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    background-color: red;
+  }
+  .second-step-navbar {
+    display: none;
+  }
+  .contact-us {
+    display: none;
+  }
+  .img-cont {
+    display: block;
+  }
+  .page1 {
+    height: 40vh;
+  }
+  .page1 h1 {
+    font-size: 5vh;
+    word-break: keep-all;
+  }
+  .feedback {
+    right: -20px;
+    top: 39%;
+    font-size: 8px;
+  }
+}
+
+/* @media (max-width:768px) {
+    .transportaion-part{
+        flex-direction: column;
+    }
+} */

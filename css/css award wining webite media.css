@@ -1,0 +1,156 @@
+@media (max-width:1200px) {
+    nav{
+    }
+    .raper {
+        position: relative;
+        width: 100%;
+        padding: 0px 5%;
+      }
+      
+.responssive-container{
+    width: 70%;
+    position: relative;
+    display: flex;
+    left: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-50%);
+    gap: 5vw;
+}
+.responsive-image{flex-basis: 40%;
+}
+.main-container-kind{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: end;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.small-container{
+
+    width: 100%;
+}
+.one-kind {
+
+    display: none;
+    justify-content: space-between;
+  }
+  .nomnies-image-container {
+
+    justify-content: space-between !important;
+    justify-content: center;
+  }
+  #third-dba{
+    display: none;
+}
+
+}
+
+
+@media (max-width:900px) {
+    nav{
+    }
+    #third-dba{
+        display: none;
+    }
+    .responssive-container{
+        width: 90% !important;
+        position: relative;
+        display: flex;
+        left: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateX(-50%);
+        gap: 5vw;
+    }
+    .responsive-image{flex-basis: 60% !important;
+    }
+    .previous-container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 70px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .image-part-more {
+        position: relative;
+        width: 90%;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+      }
+      footer {
+        gap: 20px;
+        flex-direction: column;
+      }
+      .footer-left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .footer-center{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .footer-right{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .upeer-btn{
+        display: none;
+      }
+      .dba1 {
+        position: relative;
+        width:80%;
+      }
+
+      @media (max-width:600px) {
+        .center-navbar{
+            display: none;
+        }
+      }
+      #third-dba{
+        display: block;
+    }
+    .nomnies-image-container {
+      flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center;
+        justify-content: center;
+      }
+      .dba {
+        position: relative;
+        width: 80%;
+      }
+      .right-navbar h3{
+        display: none;
+      }
+      .medal{
+        justify-content: center;
+        gap:6vw;
+        flex-wrap: wrap;
+      }
+}
+
+@media (max-width:300px) {
+    .dba-fotter {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        flex-wrap: wrap;
+        padding-left: 20px;
+      }
+}

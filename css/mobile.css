@@ -1,0 +1,219 @@
+@media screen and (max-width:400px) {
+    *{
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .raper{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../38ee60ad-e9df-41ce-b03a-c23e191ded88.jpg);
+        background-size: cover;
+
+    }
+    nav{
+    }
+    .nav-top-part{
+        padding: 4px 10px 4px 10px;
+        display: flex;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        align-items: center;
+        background-color: transparent;
+        justify-content: space-between;
+        z-index: 100;
+    }
+    .toer{
+        position: relative;
+        display: inline-block;
+    }
+.line{
+    display: inline-block;
+    height: 12px;
+    width: 2px;
+    background-color: rgb(0, 0, 0);
+}
+.tower .line:nth-child(1){
+    height: 4px;
+}
+.tower .line:nth-child(2){
+    height: 7px;
+}
+.tower .line:nth-child(3){
+    height: 9px;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .rigth-nav{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    span{
+        font-size: 7px;
+    }
+    .volt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .speed{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .battary{
+        display: inline-block;
+        height: 14px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        border: solid black 1px;
+    }
+    .battary span{
+        display: inline-block;
+        font-size: 7px;
+        padding: 0px 8px;
+    }
+
+    .time-main{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 70px 20px 0px 20px;
+    }
+    .left-time{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .left-time h3{
+        font-size: 35px;
+    }
+    .left-time span{
+        font-size: 10px;
+    }
+    .right-time{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right-time p{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .right-time span{
+        font-size: 10px;
+    }
+    .google{
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+    .google-box{
+        position: relative;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+    }
+    .goxjub{
+        height: 23px;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    input{
+        width: 100%;
+        padding: 0px 50px;
+        height:47px;
+        border-radius: 20px;
+        outline: none;
+        border: solid rgba(0, 0, 0, 0.438) 2px;
+    }
+    .oogle-box i{
+        position: absolute;
+    }
+    .fa-google{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+    }
+    .item{
+        position: relative;
+        width: 100%;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        justify-content: center;
+    }
+    .item span{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        border: solid black 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+   .item span i{
+    font-size: 20px;
+
+   }
+   .fa-youtube{
+    color: red;
+   }
+.fa-phone{
+    color: green;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: brown;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: red;
+    bottom: 0px;
+    padding: 10px 20px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+
+}
+.box-back{
+    height: 10px;
+    width: 20px;
+    border-radius: 30px;
+    border: solid black 1px;
+}
+.back{
+    height: 10px;
+    width: 20px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+}

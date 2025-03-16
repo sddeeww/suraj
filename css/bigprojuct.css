@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.684);
+    scroll-snap-type: none;
+    overflow-x: auto;
+   
+    
+  
+}
+
+
+
+
+header{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    transform: rotatex(30deg);
+    box-shadow: 10px 0px 10px red;
+    animation-name: suraj;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+@keyframes suraj{
+    0%{box-shadow:10px 0px 10px red ;}
+    20%{box-shadow:10px 0px 10px rgb(17, 243, 239) ;}
+    40%{box-shadow:10px 0px 10px rgb(87, 144, 236) ;}
+    60%{box-shadow:10px 0px 10px rgb(237, 199, 10) ;}
+    80%{box-shadow:10px 0px 10px rgb(193, 35, 148) ;}
+    100%{box-shadow:10px 0px 10px rgb(43, 221, 7) ;}
+
+}
+
+header nav ul li a{
+    color: white;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+header nav ul li a:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+  padding: 5px 10px ;
+}
+
+
+
+header nav ul li{
+    display: inline-block;
+    text-align: center;
+   position: relative;
+    margin-left: 50px;
+    padding-top: 9px;
+
+   
+  
+}
+
+.pic{
+    padding-top: 40px;
+padding-left: 443px;
+transform: rotatex(40deg);
+background: transparent;
+position: fixed;
+
+
+}
+
+.pic img{
+    height: 700px;
+    width: 700px;padding-top: 100px;
+    box-shadow: 10px 0px 10px rgb(71, 64, 64);
+    animation-name: singh;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes singh{
+   0%{box-shadow:10px 0px 10px red ;}
+   20%{box-shadow:10px 0px 10px rgb(17, 243, 239) ;}
+   40%{box-shadow:10px 0px 10px rgb(87, 144, 236) ;}
+   60%{box-shadow:10px 0px 10px rgb(237, 199, 10) ;}
+   80%{box-shadow:10px 0px 10px rgb(193, 35, 148) ;}
+   100%{box-shadow:10px 0px 10px rgb(43, 221, 7) ;}
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+header nav h2 span{
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+     left: -173px;
+}
+
+
+#a1{
+    color: rgb(238, 237, 245);
+    font-size: 54px;
+top: -8px;
+}
+
+#a2{
+    color:rgb(236, 236, 229);
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 194px;
+    left: 533px;
+     backdrop-filter: blur(3px);
+     z-index: 1;
+     /* position: fixed; */
+  
+    
+}
+
+.section1 h1{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-bottom: 10px;
+    position: relative;
+    left: 90px;
+   
+}
+
+.section1 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+ .section2{
+    position: relative;
+    top:247px;
+    /* left:705px ; */
+    padding-left: 705px;
+    /* background-color: brown; */
+    
+ }
+
+  .h {
+    border: solid white 2px;
+    background: transparent;
+    padding: 5px 10px ;
+     /* background-color: brown; */
+    color: white;
+    border-radius: 30px;
+ }
+
+
+ .h1 {
+    border: solid white 2px;
+    background: white;
+    padding: 5px 10px ;
+    border-radius: 30px;
+ }
+
+
+ .section2 a{
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+ }
+
+ .section2 .h1 a{
+   color: black;
+ }
+
+
+
+
+ .box{
+    height: 70vh;
+    /* border: solid red 3px; */
+    position: relative;
+    /* width: 100vw; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    margin-top: 30px;
+    /* background-color: white; */
+    top: 600px;
+    background: transparent;
+    left: -80px;
+ }
+
+
+ .box1{
+    position: absolute;
+    height: 20vh;
+  width: 100px;
+    /* border: solid rgb(51, 51, 53) 4px; */
+    /* margin: 20px; */
+    background: transparent;
+    box-shadow: 10px 0px 10px rgb(0, 0, 0);
+    animation-name: animation;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+ }
+
+
+ @keyframes animation{
+   0%{box-shadow:6px 0px 10px red ;}
+   20%{box-shadow:6px 0px 10px rgb(17, 243, 239) ;}
+   40%{box-shadow:px 10px 10px rgb(87, 144, 236) ;}
+   60%{box-shadow:-10px 0px 10px rgb(237, 199, 10) ;}
+   80%{box-shadow:10px 0px 10px rgb(193, 35, 148) ;}
+   100%{box-shadow:0px 10px 10px rgb(43, 221, 7) ;}
+
+}
+
+
+ #box1 {
+    position: absolute;
+    height: 80%;
+    left: 180px;
+    width: 300px;
+    border-radius: 30px;
+
+ }
+
+
+ #box1:hover{
+    transform: translate(10px ,20px);
+ }
+
+
+ #box2:hover{
+    transform: translate(10px ,20px);
+ }
+
+
+ #box3:hover{
+    transform: translate(10px ,20px);
+ }
+
+
+ #box4:hover{
+    transform: translate(10px ,20px);
+ }
+
+ #box2{
+    position: absolute;
+    height: 80%;
+    left: 540px;
+    width: 300px;
+    border-radius: 30px;
+ }
+
+ #box3{
+    position: absolute;
+    height: 80%;
+    left: 870px;
+    width: 300px;
+    border-radius: 30px;
+ }
+
+ #box4{
+    position: absolute;
+    height: 80%;
+    left: 1199px;
+    width: 300px;
+    border-radius: 30px;
+ } 
+
+ #box1 img{
+    height: 90%;
+    width: 100%;
+  background-position: center;
+  border-radius: 30px;
+ }
+
+
+ #box2 img{
+    height: 90%;
+    width: 100%;
+    border-radius: 30px;
+ }
+
+ #box3 img{
+    height: 90%;
+    width: 100%;
+    border-radius: 30px;
+    background-position: top;
+ }
+
+
+ #box4 img{
+    height: 90%;
+    width: 100%;
+    border-radius: 30px;
+    transition: 0.3s;
+ }
+
+
+ /* #box4 img:hover{
+ 
+ height: 70%;
+ width: 80%;
+padding-left: 20px;
+ } */
+
+
+
+ .box p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(10);
+    transition: 1s;
+ }
+
+
+ .box p:hover{
+    opacity: 1;
+    transform: translateY(-8px);
+    background-color: rgb(241, 231, 26);
+    border-radius: 30px;
+    position: relative;
+ }
+
+
+ footer{
+   height:350px;
+   background-color: rgb(4, 4, 61);
+   width: 100%;
+   position: relative;
+   top: 100%;
+ }
+
+ section p{
+   color: white;
+   position: absolute;
+   width: 80%;
+   left: 170px;
+   top: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .last{
+   position: absolute;
+   top: 180px;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 169px;
+   left: 229px;
+ }
+
+ .last ul li h2{font-size: 25px;
+   border-bottom: solid rgb(32, 234, 62) 3px;
+   padding-bottom: 10px;
+
+ }
+
+ .last ul li{
+   line-height: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style-type: none;
+   color: white;
+   margin-top: 10px;
+   text-align: center;
+   /* padding: 100psx; */
+ }
+
+
+ .last ul li:hover{
+   background-color: red;
+ }
+
+ .last ul {
+   box-shadow: 10px 0px 10px red;
+   animation-name: animationlast;
+   animation-timing-function: linear;
+   animation-duration: 6s;
+   animation-delay: 0.4s;
+   animation-iteration-count: infinite;
+ }
+
+
+ @keyframes animationlast{
+   0%{box-shadow:6px 0px 10px red ;}
+   20%{box-shadow:6px 0px 10px rgb(17, 243, 239) ;}
+   40%{box-shadow:px 10px 10px rgb(87, 144, 236) ;}
+   60%{box-shadow:-10px 0px 10px rgb(237, 199, 10) ;}
+   80%{box-shadow:10px 0px 10px rgb(193, 35, 148) ;}
+   100%{box-shadow:0px 10px 10px rgb(43, 221, 7) ;}
+
+   
+ }
+
+
+ .h11{
+   height: 41px;
+width: 41px;
+/* border: solid red; */
+background-color: rgb(19, 232, 150);
+position: relative;
+top: 222px;
+border-radius: 100px;
+border-radius: 100px;
+left: 68px;
+transform: rotateX(150deg);
+animation-name:animationbuttom ;
+animation-timing-function: linear;
+animation-duration: 3s;
+animation-delay: 0.3s;
+animation-iteration-count: infinite;
+
+ }
+
+
+
+ @keyframes animationbuttom{
+ 0%{height: 41px;}
+ 50%{height: 100px;}
+
+ 
+ }

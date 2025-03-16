@@ -1,0 +1,22 @@
+.name:has([type="checkbox"]:checked) label{
+    background-color: gray;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+     border: solid red 2px;
+position: relative;
+}
+
+.kalu{
+    position: absolute;
+    border-radius: 100%;
+    border: solid black 3px;
+    inset: 10px;
+}

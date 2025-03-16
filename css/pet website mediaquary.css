@@ -1,0 +1,364 @@
+@media (max-width:1200px) {
+.location
+{
+display: none !important;
+}
+.right-navabr{
+    width: 30% !important ;
+}
+.right-part-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    width: 100% !important;
+    gap: 38px;
+    justify-content: center;
+  }
+  .left-navabr img {
+    height: 100% !important;
+  }
+  .left-navabr{
+    width: 30% !important;
+  }
+  .navbar-second-part {
+    position: relative;
+    padding: 5px 2% !important;
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pase2 {
+    position: relative;
+    width: 100%;
+    height: auto !important;
+    margin-top: 60px;
+    overflow-x: scroll !important;
+  }
+  .catogres-box {
+    gap: 40px !important;
+    justify-content: center !important;
+    grid-row-gap: 30px !important;
+    grid-template-columns: repeat(auto-fit,minmax(200px,200px)) !important;
+  }
+  .deals-box-image img{
+    height: 50% !important;
+  }
+  .animal {
+    width: 120px !important;
+  }
+  .flix-image-animate-raper {
+    position: relative;
+    width: 100%;
+    height: 25vh !important;
+    padding: 0px 3%;
+    overflow-x: scroll !important;
+  }
+  .have-you-explored-part {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    padding: 0px 2%;
+    gap: 20px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,220px) !important;
+  }
+  .smapu-box1 {
+    position: relative;
+    width: 160px !important;
+    height: 320px !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between !important;
+    gap: 10px !important;
+    border: solid rgba(23, 22, 22, 0.219) 1px;
+  }
+  .smapu-box1 img{
+    height: 40% !important;
+    margin-bottom: 20px;
+}
+.up-to{
+    width: 90% !important;
+}
+.smapu-box1 img + p{
+    text-align: justify !important;
+}
+.toys {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    overflow-x: scroll;
+    height: 20vh !important;
+  }
+  .company-logo-raper {
+    display: grid;
+    margin-bottom: 50px;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px !important;
+    grid-template-columns: repeat(auto-fit,minmax(200px,200px)) !important;
+    justify-content: center !important;
+  }
+  .company-image img{
+    width: 100% !important;
+  }
+  .card1-none{
+    display: none
+    !important;
+  }
+  .animal-feed {
+    position: relative;
+    width: 100%;
+    padding: 50px 10px 100px 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) !important;
+    gap: 20px;
+  }
+  .app-image {
+    display: flex;
+    width: 100%;
+    flex-direction: column !important;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 5px;
+  }
+  .animate-image-container{
+    min-height: 25vh !important;
+  }
+  .pet-care-health-image-part {
+    position: relative;
+    width: 100%;
+    padding: 0px 2%;
+    height: 76vh;
+    display: flex;
+    flex-direction: column !important;
+    gap: 30px;
+  }
+}
+
+
+@media(max-width:900px) {
+    .navbar-first-up-part{
+    }
+    .right-navabr{
+        width: 0% !important;
+        display: none !important;
+    }
+    .center-navabr {
+        position: relative;
+        width: 58% !important;
+        background-color: rgb(247, 244, 244);
+        border-radius: 9px;
+      }
+    .left-navabr{
+        width: 40% !important;
+    }
+    .search-box{
+        width: 17% !important;
+    }
+    .navbar-second-part {
+        position: relative;
+        padding: 15px 3% !important;
+        background-color: rgb(54, 52, 52);
+        width: 100%;
+        white-space: nowrap !important;
+        height: auto !important;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap !important;
+        justify-content: center;
+      }
+      .navbar-ul-tag {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap !important;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .animate-image-container {
+        min-height: 17vh !important;
+      }
+      .popular-caretogries {
+        position: relative;
+        width: 100%;
+        margin-top: 0px !important;
+      }
+      .have-you-explored-part {
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
+        display: grid;
+        padding: 0px 2%;
+        gap: 20px;
+        justify-content: center !important;
+        grid-template-columns: repeat(auto-fit,minmax(200px,200px)) !important;
+        grid-template-rows: max-content max-content max-content !important;
+        grid-auto-rows:max-content !important;
+      }
+      .smapu-box1 {
+        position: relative;
+        width: auto !important;
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between !important;
+        gap: 10px !important;
+        border: solid rgba(23, 22, 22, 0.219) 1px;
+      }
+      
+      .smapu-raper {
+        position: relative;
+        width: 100%;
+        display: grid !important;
+        grid-template-columns: repeat( auto-fit,minmax(240px,260px)) !important;
+        border-radius: 10px;justify-content: center !important;
+        grid-column-gap: 30px !important;
+        grid-row-gap: 30px !important;
+      }
+      .animal-feed {
+        position: relative;
+        width: 100%;
+        padding: 50px 10px 100px 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,300px)) !important;
+        gap: 20px;
+        justify-content: center !important;
+        justify-items: center !important;
+      }
+      .delevery{
+        gap: 30px !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+      }
+      .delevery-box{
+        width: 300px !important;
+      }
+      .footer-main {
+        grid-row-gap: 30px !important;
+grid-template-columns: repeat(2,1fr) !important;
+      }
+      .online{
+      }
+      .email-address p{
+        letter-spacing: 0px !important;
+      }
+      .animal{
+        width: auto !important;
+      }
+      .animal-image-raper{
+        gap: 20px !important;
+        display: grid !important;
+        justify-content: center !important;
+        grid-template-columns: repeat(auto-fit,minmax(120px,120px)) !important;
+      }
+      .soptlight-image-container{
+        flex-wrap: wrap !important;
+      }
+      .deal-of-the-day{
+        flex-wrap: wrap !important;
+      }
+      .deal-left-part{
+        width: 100% !important;
+      }
+      .deal-right-part{
+        width: 100% !important;
+      }
+      .right-moving-image {
+        position: relative !important;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        width: 200% !important;
+        gap: 30px;
+      }
+}
+
+@media (max-width:500px) {
+  .navbar-first-up-part{
+    flex-direction: column !important;
+  }
+  .center-navabr{
+    overflow: hidden !important;
+    width: 100% !important;
+  }
+  .left-navabr{
+    width: 70% !important;
+    margin: 0px auto !important;
+    display: flex;
+    justify-content: center !important;
+  }
+  .deals-box-image {
+    width: 180px !important;
+    height: 240px !important;
+    border-radius: 7px;
+    overflow: hidden;
+    border: solid rgba(0, 0, 0, 0.146) 1px;
+  }
+  .deals-box-image img{
+    height:50% !important;
+    object-fit: cover !important;
+  }
+  .deal-right-part{
+    width: 100vw !important;
+  }
+  .right-moving-image{
+    width: 600px !important;
+  }
+  .animal-image-raper{
+    padding: 20px 0px !important;
+  }
+  .animal{
+    width: 90% !important;
+  }
+  .flip-img {
+    height: 95% !important;
+    width: 93vw !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-position: center;
+  }
+  .cat-main-raper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px 4%;
+  }
+  .cat-box {
+    width: 70% !important;
+  }
+  .toys-box{
+    height: 95% !important;
+    width: 93vw !important;
+  }
+  .animal-feed {
+   
+    grid-template-columns: 1fr !important;
+    
+  }
+  .footer-main {
+    grid-row-gap: 30px !important;
+    grid-template-columns: 1fr !important;
+  }
+  .email-address p{
+    font-size: 14px !important;
+  }
+}

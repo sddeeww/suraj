@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      user-select: none;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+    html,
+    body {
+      height: 100%;
+      background-color: rgb(5, 55, 55);
+      width: 100%;
+    }
+
+    .container {
+      margin: 100px;
+      position: relative;
+      width: 400px;
+      border: none;
+      padding: 20px;
+    }
+
+    h1 {
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-bottom: 20px;
+    }
+
+    button {
+      height: 70px;
+      width: 70px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      border: none;
+    }
+
+    .box {
+      width: 100%;
+      justify-content: center;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 40px;
+      justify-items: center;
+    }
+
+    #reset {
+      height: 40px;
+      margin-top: 30px;
+      position: relative;
+    }
+
+    #start {
+      height: 40px;
+      margin-top: 30px;
+      position: relative;
+      left: 50%;
+    }
+
+    h5 {
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    @media screen and (max-width:400px) {
+      .container{
+        width: 100%;
+        margin: 0px;
+        border: solid white 1px;
+        height: 100vh;
+      }
+    }
+    span{
+      color: white;
+      font-size: 10px;
+      font-style: italic;
+      position: absolute;
+      bottom: 100px;
+      left: 50%;
+      transform:translateX(-50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 style="color: white;">suraj</h1>
+    <h5></h5>
+    <div class="box">
+      <button class="button"></button>
+      <button class="button"></button>
+      <button class="button"></button>
+      <button class="button"></button>
+      <button class="button"></button>
+      <button class="button"></button>
+      <button class="button"></button>
+      <button class="button"></button>
+      <button class="button"></button>
+    </div>
+    <button id="reset">reset</button>
+    <button id="start">start</button>
+    <span>design by suraj..</span>
+  </div>
+  <script>
+
+    let button = document.querySelectorAll(".button")
+    let reset1 = document.getElementById("reset")
+    let final = document.querySelector("h5")
+    final.style.color="white"
+    let chance = false
+    let start = document.getElementById("start")
+
+    button.forEach((b) => {
+      b.addEventListener("click", () => {
+        b.style.fontSize="30px"
+        b.style.color="black"
+        console.log("box was clicked")
+        if (chance == false) {
+          b.innerText = "x"
+          chance = true
+        }
+        else {
+          b.innerText = "o"
+          chance = false
+        };
+        b.disabled = true;
+        
+        reset1.addEventListener("click", reset)
+        game_winer_pattern();
+      });
+    });
+    function reset() {
+      for (c of button) {
+        chance=false
+        c.innerText = ""
+        final.innerText=""
+        enable()
+      }
+    }
+    // reset.addEventListener("click", () => {
+    // })
+    let wining_caretary = [
+      [0, 1, 2],
+      [3, 4, 5],
+      [6, 7, 8],
+      [0, 3, 6],
+      [1, 4, 7],
+      [2, 5, 8],
+      [0, 4, 8],
+      [2, 4, 6]
+    ]
+    function game_winer_pattern() {
+      for (array_value of wining_caretary) {
+        console.log(array_value[0], array_value[1], array_value[2])
+        // console.log(button[array_value[0]].innerText,
+        // button[array_value[1]].innerText,
+        // button[array_value[2]].innerText)
+        let position1 = button[array_value[0]].innerText
+        let text = "has won"
+        let position2 = button[array_value[1]].innerText
+        let position3 = button[array_value[2]].innerText
+        if (position1 != "" && position2 != "" && position3 != "") {
+          if (position1 == position2 && position2 === position3 && position1 == position3) {
+            console.log("both are equal")
+            console.log(position1)
+            disabled();
+            if (position1 == position2 && position2 === position3 && position1 == position3) {
+              final.innerText = `${position1} ${text}`
+            }
+          }
+        }
+      }
+    }
+    function disabled() {
+      for (let all_box of button) {
+        all_box.disabled = true;
+      }
+    }
+    function enable() {
+      for (let all_box of button) {
+        all_box.disabled = false;
+      }
+    }
+    start.addEventListener("click", reset)
+  </script>
+</body>
+
+</html>
+
+<!-- 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;box-sizing: border-box;
+      cursor: pointer;
+    }
+    html,body{
+      height: 100%;
+      width: 100%;
+    }
+    .container{
+      height: 600px;
+      width: 400px;
+      border: solid black 1px;
+      margin: 100px;
+    }
+    .rock{
+      display: block;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+      background-color: rgb(6, 6, 25);
+    }
+    .image-container{
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin-top: 70px;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .image-container img{
+      width: 100%;
+      height: 80px;
+      opacity: 1;
+      transition-property: all;
+      transition-duration: 0.2s;
+      transition-timing-function: linear;
+      width: 80px;
+      border-radius: 100%;
+    }
+    .image-container img:hover{
+      opacity: 0.6;
+    }
+    .result{
+      position: relative;
+      width: 100%;
+      margin-top: 40px;
+      font-size: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    button{
+      margin-top: 50px;
+      padding: 16px 40px;
+      font-size: 24px;
+      background-color: transparent;
+      border: none;
+      position: relative;
+      background-color: black;
+      color: white;
+      border-radius: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+</head> 
+  <div class="container">
+<h1 class="rock">rock paaper scissors</h1>
+<div class="image-container">
+  <img class="image" id="rock" src="https://github.com/shradha-khapra/JavaScriptSeries/blob/main/StonePaperScissors/images/rock.png?raw=true" alt="">
+  <img class="image" id="paper" src="https://github.com/shradha-khapra/JavaScriptSeries/blob/main/StonePaperScissors/images/paper.png?raw=true" alt="">
+  <img class="image" id="scissors" src="https://github.com/shradha-khapra/JavaScriptSeries/blob/main/StonePaperScissors/images/scissors.png?raw=true" alt="">
+</div>
+<div class="result">
+  <span id="man">0</span>
+  <span>you</span>
+  <span id="computer">0</span>
+  <span>comp</span>
+</div>
+<button id="btn">play your move</button>
+  </div>
+  <script src="../script/a2.js"></script>
+  <script>
+    let userscore=0
+let computerscore=0
+let gamestart=false;
+let btn=document.getElementById("btn")
+let image=document.querySelectorAll(".image")
+let computervalue=["rock","paper","scissors"]
+btn.addEventListener("click",()=>{
+    gamestart=true;
+    btn.innerText="game start"
+    for(let allimage of image){
+        allimage.addEventListener("click",(event)=>{
+            // console.log(event.target)
+            let targetid=event.target.getAttribute("id")
+            // console.log(targetid)
+            let random=Math.floor(Math.random()*3)
+            let computr_final_value=computervalue[random]
+            // console.log("computer",computr_final_value)
+            if(targetid===computr_final_value){
+                gamedraw();
+            }
+      else
+      {
+        let userwin=true;
+        if(targetid==="paper"){
+            //rock,sicssors
+            userwin=computr_final_value==="rock"?true:false;
+        }
+        else if(targetid==="rock"){
+            //papar,sicssors
+            userwin=computr_final_value==="paper"?false:true;
+        }
+        else
+        {
+            //paper,rock
+            userwin=computr_final_value==="rock"?false:true;
+        }
+        result(userwin)
+      }
+        })
+    }
+})
+
+function gamedraw(){
+    btn.innerText="game draw"
+}
+function result(ele){
+    if(ele){
+        btn.innerText="you win"
+        userscore++;
+        let man=document.getElementById("man")
+        man.innerText=userscore;
+    }
+    else{
+        btn.innerText="you lose"
+        computerscore++;
+        let computer=document.getElementById("computer")
+        computer.innerText=computerscore;
+    }
+}
+
+  </script>
+</body>
+</html> -->

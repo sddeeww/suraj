@@ -1,0 +1,34 @@
+@media(width<800px){
+.g20 img{
+    display: none;
+}
+.independence {
+    display: none;
+}
+.pase1-menu ul{
+    display: none;
+}
+*{
+    font-size: 2vw !important;
+}
+.portal ul li a{
+    padding-right: 0px;
+}
+.home img{
+    width: 100px;
+}
+.all-pic{
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+    overflow: hidden;
+}
+.all-pic img{
+    width: 50px;
+}
+
+.left-side-award{
+    font-size: 2vw;
+}
+
+}

@@ -1,0 +1,133 @@
+@media (width<1300px) {
+  .main-container {
+    padding-top: 2rem;
+  }
+
+  .logo img {
+    height: 30px;
+    filter: brightness(100);
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-first {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    align-items: center;
+    /* padding: 0px 10rem 0px 10rem; */
+    gap: 2rem;
+  }
+
+  .anchor-tag ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.7rem;
+    color: white;
+  }
+  .anchor-tag {
+    transform: translateX(-1rem);
+  }
+  .right-anchor-tag ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .right-anchor-tag ul li a {
+    font-size: 0.7rem;
+  }
+
+  .right-anchor-tag button {
+    padding: 0.2rem 1rem;
+    font-size: 0.7rem;
+  }
+  .center-main {
+    grid-column-gap: 2rem;
+  }
+
+  .left-paragraph {
+    gap: 1rem;
+  }
+  .break-through{
+    padding-top: 4rem;
+  }
+  .comunicate h1{
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+}
+.hr-for-grid{
+    grid-column-gap: 0.7rem;
+    
+}
+
+.left-hr-part{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.part1::before{
+    width: 50%;    
+}
+.part2::before{
+    width: 50%;    
+}
+.part3::before{
+    width: 50%;    
+}
+.part4::before{
+    width: 50%;    
+}
+.part5::before{
+    width: 50%;    
+}
+.part1::after{
+    right: 90px;
+}
+.part2::after{
+    right: 90px;
+}
+.part3::after{
+    right: 90px;
+}
+.part4::after{
+    right: 90px;
+}
+.part5::after{
+    right: 90px;
+}
+.pic{
+    width: 80%;
+}
+
+.powton-company{
+    gap: 1rem;
+}
+.powton-hedaing{
+    font-size: 1.8rem;
+}
+.cumunication-hedaing h1{
+    font-size: 2rem;
+    text-shadow: 10px 0px 5px  rgb(81, 41, 41);
+}
+.a1:hover{
+    box-shadow: 0px 0px 10px 3px rgb(69, 67, 225);
+}
+.a2:hover{
+    box-shadow: 0px 0px 10px 3px rgb(69, 67, 225);
+}
+.a3:hover{
+    box-shadow: 0px 0px 10px 3px rgb(69, 67, 225);
+}
+.a4:hover{
+    box-shadow: 0px 0px 10px 3px rgb(69, 67, 225);
+}
+.a5:hover{
+    box-shadow: 0px 0px 10px 3px rgb(69, 67, 225);
+}
+}

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/quizhovereffect.css">
+</head>
+
+<div class="menu-item">
+    <div class="side-button">
+        <div class="out">
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </div>
+    </div>
+    <div class="school2">
+        <button class="for_school_button1">school plans quto</button>
+        <button class="for_school_button1">enter code</button>
+        <button class="log-in1" id="log-in">log in</button>
+        <button class="sign-up1 for-set-sign-up" >sign up</button>
+    </div>
+</div>
+
+
+<body>
+    <div class="sign-up-pase">
+        <div class="sign-up-pase-upper-absolute">
+            <div class="circle">
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
+        </div>
+        <div class="sign-up-pase-navbar">
+            <div class="cross-menu">
+                <i id="cross" class="fa-solid fa-xmark"></i>
+            </div>
+            <section class="left-sig-up">
+                <img src="https://cf.quizizz.com/img/logos/white-brandmark-600x164-optim.webp" alt="">
+            </section>
+            <section class="right-sig-up">
+                <div class="jon">
+                    <div class="tik-tik-game">
+                        <div class="exit">
+                            <i class="fa-solid fa-outdent" id="exit"></i>
+                        </div>
+                        <h1 class="welcome">welcome to tik-tik game</h1>
+                        <h2 class="winner">the winner is <span class="result"></span></h2>
+                 <div class="button-container">
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                    <button class="button-for-game-change"></button>
+                 </div>
+                        <div class="last-button">
+                            <button class="reset">reset</button>
+                            <button class="clear">clear</button>
+                        </div>
+                    </div>
+                    <button class="join-game-now">join a game</button>
+                </div>
+                <div class="sign-up-login-form">
+                    <button>sign up</button>
+                </div>
+            </section>
+        </div>
+        <div class="sign-pase-container">
+
+            <div class="log-in-pase">
+                <div class="left-log-in">
+                    <h2>log in to quizizz</h2>
+                <div class="log-in-with-multiple-type">
+                    <div class="google log-in-all">
+                        <div class="left-google"><i class="fa-brands fa-google"></i> continue with google</div>
+                        <div class="right-google">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                    <div class="mobile log-in-all">
+                        <div class="left-mobile">
+                            <i class="fa-solid fa-mobile"></i> continue with mobile
+                        </div>
+                        <div class="right-mobile">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                    <div class="email log-in-all">
+                        <div class="left-email">
+                            <i class="fa-solid fa-envelope"></i> 
+                            continue with email
+                        </div>
+                        <div class="right-email">  <i class="fa-solid fa-arrow-right-long"></i></div>
+                    </div>
+                </div>
+                <div class="login-with-multple-option">
+                <p class="with">or continue with</p>
+      <div class="company-link">
+        <a href="">
+            <div class="facebook link">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <p class="figcaption">facebook</p>
+        </a>
+        <a href="">
+            <div class="microsoft link">
+                <i class="fa-brands fa-microsoft"></i>
+            </div>
+            <p class="figcaption">microsoft</p>
+        </a>
+        <a href="">
+            <div class="apple link">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+            <p class="figcaption">apple</p>
+        </a>
+        <a href="">
+            <div class="other link">
+                <i class="fa-solid fa-otter"></i>
+            </div>
+            <p class="figcaption">other</p>
+        </a>
+      </div>
+                </div>
+                <div class="log-in-pase-footer">
+                    <h2>dont have an acount?<button>sign up</button></h2>
+                </div>
+                </div>
+                <div class="right-log-in">
+                    <div class="teache-love-part">
+                        <h2>teacher love us ❤️</h2>
+                        <h2>join over 200 mmillion educator and learnes on quiz</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start  -->
+
+    <div class="navbar" id="navbar">
+        <nav>
+            <div class="left_navbar" id="left_navbar">
+                <div class="logo-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/62fa6419161d3a641f681ceb_Logo.svg"
+                        alt="">
+                </div>
+                <div class="center_navbar" id="center_navbar">
+                    <div class="list_parent">
+                        <ul class="ultag">
+                            <li class="list school-parent"> <a class="list-anchor" href="#">for school</a>
+                                <div class="for-student-container-list-item">
+                                    <ul>
+                                        <li><i class="fa-solid fa-users-viewfinder"></i> overview</li>
+                                        <li><i class="fa-solid fa-hotel"></i> impact</li>
+                                        <li><i class="fa-solid fa-cart-flatbed"></i> product</li>
+                                        <li><i class="fa-solid fa-money-bill-trend-up"></i> funding</li>
+                                        <li><i class="fa-regular fa-sun"></i> what is new</li>
+                                    </ul>
+                                </div>
+                             </li>
+
+                            <li class="list"> <a class="list-anchor" href="#">plans</a> 
+                             
+                            </li>
+
+                            <li class="list soluation-item-parent"> <a class="list-anchor" href="#">soluation</a>
+                                <div class="plans-item-container">
+                                    <ul>
+                                      <li><a href="">
+                                        <div class="overview soluation-item">
+                                            <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/635c34524464542ef9fa8e9d_book-bookmark%201.svg" alt="">
+                                            <p>overview</p>
+                                        </div>
+                                      </a></li>
+                                      <li>
+                                        <a href="" class="anchor-for-padding">
+                                     <div class="acomdation soluation-item">
+                                        <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/6616ab3c7cd6c1a7502419cb_Accommodations%20Icon.svg" alt=""><sub>new</sub>
+                                        <p>accomdation</p>
+                                     </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="">
+                                            <div class="quiz-ali soluation-item">
+                                                <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64da76ec93a656777d37aa74_Quizizz%20AI%20Sparkle.png" alt="">
+                                                <p>quizez ali</p>
+                                            </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="">
+                                            <div class="state soluation-item">
+                                                <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/634da75db10c7c7261936c80_ballot-check%202.svg" alt="">
+                                                <p>state test pre</p>
+                                            </div>
+                                        </a>
+                                      </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="casp soluation-item">
+                                                    <img src="https://cdn.prod.website-files.com/61fd8e9c8085651f81824642/63e35c9395865f7c22364d54_STAAR%20Prep.svg" alt="">
+                                                    <p>cassp pre</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="plsc soluation-item">
+                                                    <img src="https://cdn.prod.website-files.com/61fd8e9c8085651f81824642/63e44e0e4d31282ef0c31eba_customized-reports-01%20(1).svg" alt="">
+                                                    <p>plcs</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="star-pro soluation-item">
+                                                    <img src="https://cdn.prod.website-files.com/61fd8e9c8085651f81824642/63e35c742f614dd6238d94d7_STAAR.svg" alt="">
+                                                    <p>star pre</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="mts soluation-item">
+                                                    <img src="https://cdn.prod.website-files.com/61fd8e9c8085651f81824642/63658188d10df44bd7f0919a_accessibility_inclusion-01.svg" alt="">
+                                                    <p>mtss</p>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="secondary soluation-item" >
+                                                    <img src="https://cdn.prod.website-files.com/61fd8e9c8085651f81824642/63a0c1a3d731a36274c4ef89_school%203.svg" alt="">
+                                                    <p>secondry</p>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                             </li>
+                            <li class="list"> <a class="list-anchor" href="#">resources</a> </li>
+                            <li class="list"> <a class="list-anchor" href="#">for bussions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rigth_navbar" id="right_navbar">
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="school">
+                    <button class="for_school_button">school plans quto</button>
+                    <button class="for_school_button">enter code</button>
+                    <button class="log-in" id="log-in">log in</button>
+                    <button class="sign-up" id="sign-up">sign up</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+    <div class="raper">
+         <div class="pase1">
+            <section class="plan-in-second">
+                <aside class="plane-left-side">
+                    <div class="main-text-top">
+                        <h1>Plan in seconds,
+                            not weekends.</h1>
+                    </div>
+                    <p class="deliver">Deliver instruction that’s relevant for every student — now with a boost from AI <i class="fa-regular fa-star"></i></p>
+                   <div class="main-button">
+                    <div class="sign-up-for-free free">
+                        <div class="button-flex ">
+                            <span>teachers</span>
+                        <span> Sign up for free <i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="learn-more sign-up-for-free free1">
+                       <div class="button-flex">
+                        <span class="" style="color: hsl(269, 61%, 38%);">Administrators</span>
+<span>                        learn more <i class="fa-solid fa-chevron-right"></i></span>
+                       </div>
+                    </div>
+                   </div>
+                </aside>
+                <aside class="plane-right-side">
+                    <img src="../images/download.png" alt="">
+                </aside>
+            </section>
+            <section class="certificate-image-container">
+                <div class="center-part">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/66389a98a941e9526fdc14cd_TrustED%20Logo.webp" alt="">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/66389cf586f3c86d869c5675_ISTE%20seal%20Logo%20(1).webp" alt="">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/66389a98098a23c2ae102762_CODiE%20Logo.webp" alt="">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/66389d546f049eb3d95d9250_Common%20Sense%20Logo%201.webp" alt="">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/66389e2f5f82d9b5f27f0d5e_Education%20awards%20Logo%201.webp" alt="">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/66389e2f6dd5ebc2ccef92b2_G2%20Logo%201.webp" alt="">
+                </div>
+            </section>
+        </div>
+   
+
+<!-- pase1 last  -->
+
+<!-- pase2 start  -->
+
+
+
+
+
+
+
+
+  <div class="pase2">
+    <p class="loved">loved across 150+ countries</p>
+    <h2 class="trust">Trusted by teachers in <span class="tinty">90% of U.S. schools</span>
+    </h2>
+    <div class="quiez-button">
+        <button>quiziz for school and district <i class="fa-solid fa-angle-right"></i></button>
+    </div>
+    <div class="loved-imgae-container">
+        <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5044d44530c089fb779_Logo%20Web.webp" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 87vw, (max-width: 1439px) 88vw, 1200px" srcset="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5044d44530c089fb779_Logo%20Web-p-500.webp 500w, https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5044d44530c089fb779_Logo%20Web-p-800.webp 800w, https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5044d44530c089fb779_Logo%20Web-p-1080.webp 1080w, https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5044d44530c089fb779_Logo%20Web.webp 2163w" alt="" class="logos-image" localized="" dir="ltr">
+    </div>
+</div> 
+
+<!-- <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5e129c6cc9f15d5f2f8_Logos%20Mobile%20Horizontal%20(1).webp" alt=""> --> 
+<!-- <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5b2bb8e1b6cd5e72372_Logos%20Tablet%20(2).webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 92vw, 100vw" srcset="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5b2bb8e1b6cd5e72372_Logos%20Tablet%20(2)-p-500.webp 500w, https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5b2bb8e1b6cd5e72372_Logos%20Tablet%20(2)-p-800.webp 800w, https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/65fac5b2bb8e1b6cd5e72372_Logos%20Tablet%20(2).webp 1216w" alt="" class="logos-image tablet" localized="" dir="ltr">
+
+
+
+
+
+
+
+
+
+
+
+  pase2 last   -->
+
+   <div class="pase3">
+    <section class="teaching">
+        <aside class="teaching-left">
+            <p>fast</p>
+            <h2>Teaching, minus the time with Quizizz AI
+            </h2>
+            <ul class="list">
+                <li><p>Generate activities in seconds from your favorite educational websites, PDFs, and docs with the Chrome Extension</p></li>
+                <li><p>Increase efficiency and digitize content you already have, images and all with AI worksheets to activities</p></li>
+                <li><p>Create the right reading material, right now with AI-generated comprehension passages</p></li>
+            </ul>
+            <div class="tnint-three">
+                <span style="font-size: 40px; font-weight: 700; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">90%</span>
+                <span><p class="of">of teachers say they can easily and quickly personalize content on Quizizz.</p></span>
+            </div>
+            <button class="learn">learn more <i class="fa-solid fa-angle-right"></i></button>
+        </aside>
+        <aside class="teaching-right rigth-video">
+            <div class="design-left-side"></div>
+            <video loop muted autoplay src="https://cf.quizizz.com/videos/webflow/Value_Prop_1.webm"></video>
+        </aside>
+    </section>
+ </div>   
+
+
+
+
+ <div class="pase4">
+    <div class="close-gap">
+        <div class="left-gap teaching-right">
+            <div class="inside-left-gap">
+                <video  loop muted autoplay src="https://cf.quizizz.com/videos/webflow/Intro_1K_Updated.mp4"></video>
+            </div>
+        </div>
+        <div class="right-gap">
+            <h2>ACCESSIBLE</h2>
+            <h1>Close gaps, open doors with accommodations</h1>
+             <ul>
+                <li><p>Ensure technology is compliant with 25+ accessibility features including Read Aloud, Audio Responses, translation, leveled text, and more</p></li>
+                <li><p>Reduce specific barriers and provide unique accommodation supports to any student</p></li>
+                <li><p>Increase flexibility in the way information is presented to students and align to UDL frameworks
+                </p></li>
+             </ul>
+             <button class="learn gap-button">learn more <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+</div> 
+
+  <div class="pase5">
+    <div class="teach">
+        <div class="teach-left rigth-video">
+            <video src="https://cf.quizizz.com/videos/webflow/Value_Prop_3.mp4" loop muted autoplay></video>
+        </div>
+        <div class="teach-right right-gap">
+            <h2>FLEXIBLE</h2>
+            <h1>Teach flexibly, all in one place</h1>
+             <ul>
+                <li><p>Ensure technology is compliant with 25+ accessibility features including Read Aloud, Audio Responses, translation, leveled text, and more</p></li>
+                <li><p>Reduce specific barriers and provide unique accommodation supports to any student</p></li>
+                <li><p>Increase flexibility in the way information is presented to students and align to UDL frameworks
+                </p></li>
+             </ul>
+             <button class="learn">learn more <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+</div>  
+
+
+ <div class="pase6">
+    <div class="student">
+        <div class="left-student ">
+            <video src="https://cf.quizizz.com/videos/webflow/Value_Prop_4.mp4" loop muted autoplay></video>
+        </div>
+        <div class="right-student right-gap">
+            <h2>ENGAGING</h2>
+            <h1>Engage students
+                without sacrificing rigor</h1>
+                <ul>
+                    <li> <p>Motivate learners with Power-Ups, Leaderboards, Team Mode, and more gamified-for-growth elements.</p> </li>
+                    <li> <p>Promote higher-level thinking with 15+ question types from state tests including Comprehension, Math Responses, Drawing, and more.</p> </li>
+                    <li> <p>Adapt instruction with student reporting and data
+                    </p> </li>
+                </ul>
+                <div class="ninty-four">
+                    <span>94%</span>
+                    <span>
+                        of teachers say Quizizz adequately challenges students based on individual proficiency levels.</span>
+                </div>
+                <div class="get-button-containetr">
+                    <button class="dif-button learn">get a quto <i class="fa-solid fa-angle-right"></i></button>
+                    <button class="learn">learn more <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+        </div>
+    </div>
+</div> 
+
+
+
+
+
+ <div class="pase7">
+    <div class="from">
+        <h2>From planning to differentiating, we help educators do hard things – <span style="color: blueviolet;">faster</span> and with the <span style="color: blueviolet;">flexibility</span> to fuel students’ sense of belonging.</h2>
+        <p>here how to work:</p>
+        <div class="card-container">
+            <div class="card">
+                <p>Create activities and assessments with 18+ question types from any resource or enhance what you’ve got with AI.</p>
+            </div>
+            <div class="card">
+                <p>Adapt your resources for anything - all grade levels, all subjects, serious assessment, gamification, and individual student needs.</p>
+            </div>
+            <div class="card">
+                <p>Get data that matters with simple, standards-aligned reports designed to help with teaching decisions today and tomorrow.</p>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+  <div class="pase8">
+    <div class="quiz">
+        <h1>Teachers and Tech Coa
+            ches 💜 Quizizz for…</h1>
+            <div class="instruction">
+                <ul>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> live strem</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> homework</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> assignment</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> indivusil practice</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> group practice</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> test prep</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> fromative assignment</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> summative assignment</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> slides</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> presentation</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> gamificatioon</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> exict ticket</h4></li>
+                    <li><h4><span class="gola">
+                        <span class="squre"></span>
+                    </span> bell ring</h4></li>
+                </ul>
+            </div>
+    </div>
+</div>  
+
+
+ <div class="pase9">
+    <div class="slider-button">
+        <div class="left-slider-button"><i id="click1" class="fa-solid fa-circle-arrow-left"></i></div>
+        <div class="right-slider-button"><i id="click2" class="fa-regular fa-circle-right"></i></div>
+    </div>
+
+    <div class="slide">
+        <div class="slider-part">
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f990b123415b2421ee8b60_63340993ed6180e5f066d265_David.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f99175abf0f547876c8a6b_63340b156a4b662888ff9ccb_Sarah.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f9937beead48d3461fe8b1_63340b0493f21a09cf62e0bf_Lisa.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f993f7eead48d346206727_63340b74a80292025564ee2d_Tifarah.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f9a4d2e9c7481aee534227_63340adf04ec4a1b86cc5c6d_Kimberley.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f9a571f0575ca55282289e_63340af398992cfa70b62c46_Latoya.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f9a6c08b0bf73b03e4705f_63340a366a4b6618d5ff9190_Fran.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f9a747069c17009d7ebfd7_63340a49b33bb52dffb13fe3_Emily.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f9a747069c17009d7ebfd7_63340a49b33bb52dffb13fe3_Emily.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+            <div class="image-slider-container">
+                <div class="top-part-teacher-image">
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/64f9a747069c17009d7ebfd7_63340a49b33bb52dffb13fe3_Emily.webp" alt="">
+                    <div class="second-part-right">
+                        <h2 class="teacher-name">David Sheffield</h2>
+                        <p class="starnderd">10th class</p>
+                    </div>
+                </div>
+                <div class="text-for-teacher">
+                    <h4>“Just today, I was able to use an already created Quizizz on slope-intercept form to see if my students were ready for their summative assessment on Thursday .... Because of the data from the Quizizz, I was able to support and meet the needs of these students.”</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>   
+
+
+ <div class="pase9">
+<div class="weekend-container">
+    <section class="weekend">
+        <div class="left-weekend">
+            <h2>A weekend all to yourself is possible. Why not make it this weekend?</h2>
+            <p>Plan your next lesson and adapt it to the needs of every student in a matter of minutes.</p>
+            <div class="weekeend-button">
+                <button class="dif2-button">
+                    <p class="teacher">teachers</p>
+                    <h4>sign up for free <i class="fa-solid fa-angle-right"  id="icon-left"></i></h4>
+                </button>
+                <button class="dif2-button">
+                    <p class="admi">administartor</p>
+                    <h4 class="adminstri-button">learn more <i class="fa-solid fa-angle-right" id="icon-right"></i></h4>
+                </button>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="weekend-bootom-part">
+    
+</div>
+    </div> 
+
+
+
+
+
+<div class="pase10">
+    <div class="join">
+        <div class="left-join">
+            <p>Not a K-12 school or district?</p>
+            <h1>Join startups, nonprofits, and Fortune 500 companies using Quizizz
+            </h1>
+            <button >explore quiz for busioness <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="right-join">
+            <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/661f97fec231d6ee268d2fea_QFW%20Logos%20(1).webp" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+ <footer>
+    <section class="footer-part1">
+        <div class="footer-line1">
+            <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/62fa6419161d3a641f681ceb_Logo.svg" alt="">
+            <div class="down-footer">
+                <h2>Accessibility
+                    & Inclusion</h2>
+            </div>
+        </div>
+        <div class="footer-line2">
+            <ul>
+                <li>The Quizizz Blog</li>
+                <li>Teacher Resources</li>
+                <li>Quizizz for Work</li>
+                <li>Help Center</li>
+                <li>Teacher Panel</li>
+                <li>IQAPS</li>
+                <li>AI Toolkit</li>
+                <li>Accessibility and Inclusion</li>
+                <li>Sitemap</li>
+                <li>Terms of Service</li>
+                <li>The Landlady Book</li>
+            </ul>
+        </div>
+        <div class="footer-line3">
+            <ul>
+                <li>Worksheets</li>
+                <li>Reseller program</li>
+                <li> Privacy Policy</li>
+                <li>Privacy Center</li>
+                <li>Careers</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="footer-line4">
+            <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/62fa641a161d3a2982681d00_Google%20Play.svg" alt="">
+            <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/62fa6419161d3a1ad0681cbf_App%20Store.svg" alt="">
+        </div>
+    </section>
+</footer> 
+
+
+<div class="footer2">
+    <div class="left-footer2">
+        <ul>
+            <li>1. 2021 survey of 800+ teachers conducted by Quizizz
+            </li>
+            <li>2. Journal of Education and e-Learning Research (Source)</li>
+            <li>3. International Online Journal of Education and Teaching (Source)</li>
+        </ul>
+    </div>
+    <div class="right-footer2">
+        <div class="icon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>2024 Quizizz Inc.
+        </p>
+    </div>
+
+</div>
+
+
+
+</div>
+    <!-- last   -->
+    <script src="../script/quiz.js"></script>
+</body>
+
+</html>
+<!-- https://quizizz.com/?lng=en  -->

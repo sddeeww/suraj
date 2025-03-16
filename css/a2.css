@@ -1,0 +1,645 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.navbar{
+  z-index: 1;
+  
+ 
+  width: 100%;
+  height: 6em;
+  /* border: solid red 3px; */
+  padding: 0em 20em;
+  display: flex;
+   justify-content: centessr;
+  align-items: center;
+  position: fixed;
+  animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-name: boxlight;
+  justify-content: space-between;
+  box-shadow:0em 0em 1em 0.2em black;
+}
+
+
+@keyframes boxlight{
+  0%{
+    box-shadow:0em 0em 1em 0.2em black;;
+  }
+  
+  50%{
+    box-shadow:0em 0em 1em 0.2em rgb(82, 92, 228);;
+
+  }
+
+  
+  
+  100%{
+    box-shadow:0em 0em 1em 0.2em rgb(76, 211, 248);;
+
+  }
+}
+
+
+
+
+.menu ul{
+  display: flex;
+  justify-content:center; 
+   align-items: center;
+}
+
+
+.menu ul li{
+  margin-left: 7em;
+  list-style-type: none;
+}
+
+.menu ul li a{
+  color: rgb(0, 0, 0);
+  font-size: 1.8em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  transition: color 0.1s linear;
+font-weight: 600
+}
+
+
+.menu ul li a:hover{
+  color: green;
+}
+
+
+
+.logo img{
+  height: 5em;
+  width: 5em;
+}
+
+
+
+
+
+
+
+
+/* ******************  secon ******* */
+.second{
+  z-index: 10;
+  width: 100%;
+  position: relative;
+  top: 8em;
+  /* border: solid red 3px; */
+  padding: 5em 10em;
+  /* background: url(../images/fruit3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #e8ecf0;
+}
+
+
+.s-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+justify-content: space-between;
+background-color: whitesmoke;
+padding: 1em 2em;
+box-shadow: 0em 0em 0.8em 0.1em rgb(4, 3, 3);
+}
+
+
+.s-c:hover .about{
+  color: transparent;
+  background: url(../images/gif.webp);
+  background-position: center;
+  background-size: cover;
+  -webkit-background-clip: text;
+
+}
+
+
+.s-c:hover .we{
+  color: rgb(255, 255, 255);
+}
+
+
+
+.s-c:hover .lorem{
+  color: rgb(255, 255, 255);
+}
+
+
+.s-c:hover{
+  background-color: black;
+}
+
+.l-t{
+  width: 60%;
+}
+
+
+.about{
+  font-size: 4.5em;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 0.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.we{
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-bottom: 0.2em;
+}
+
+
+.lorem{
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/* &&&&&&&&&&&&  types of foood  &&& */
+
+
+
+.food{
+  height: 25em;
+  width: 100%;
+  /* border: solid Sred 3px; */
+  margin-top: 10em;
+ padding: 0em 22em;
+}
+
+.fd{
+  /* border: solid green 2px; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 1vh;
+  justify-content: space-around;
+  gap: 1em;
+  /* background-color: chartreuse; */
+  /* animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-name: changebg;
+  animation-iteration-count: infinite; */
+  
+}
+
+/* 
+@keyframes changebg{
+  0%{background-color:chartreuse ;}
+  30%{background-color:rgb(122, 131, 232) ;}
+  70%{background-color:rgb(241, 203, 16) ;}
+  100%{background-color:aqua(239, 85, 188)se ;}
+} */
+
+.types{
+  text-align: center;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+.food1 img{
+  height: 100%;
+  border-radius: 1em;
+ 
+}
+
+
+
+
+/* 
+#food1{
+  animation-name: changepic;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+} */
+
+.food2 img{
+  height: 100%;
+  border-radius: 1em;
+ 
+}
+
+
+
+
+.food3 img{
+  height: 100%;
+  border-radius: 1em;
+}
+
+
+.food1{
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.food2{
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.food3{
+  position: relative;
+  overflow: hidden;
+
+}
+
+.fruit1{
+  position: absolute;
+  top: 28em;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(58, 49, 49,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+  color: white;
+ 
+}
+
+
+.fruit2{
+  position: absolute;
+  top: 28em;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(58, 49, 49,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+  color: white;
+ 
+}
+
+
+.fruit3{
+  position: absolute;
+  top: 28em;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(58, 49, 49,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+  color: white;
+ 
+}
+
+
+.food1:hover .fruit1{
+  transform: translateY(-28em);
+}
+
+
+.food2:hover .fruit2{
+  transform: translateY(-28em);
+}
+
+
+.food3:hover .fruit3{
+  transform: translateY(-28em);
+}
+
+.fruit1 h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+
+.fruit2 h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.fruit3 h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+
+
+
+
+
+/* $$$$$$$$$$$  ternding 4$$$$$$$ */
+
+.trending{
+  width: 100%;
+  height: 50em;
+  /* border: solid red 3px; */
+  margin-top: 10em;
+  padding: 1em 3em;
+}
+
+.bg{
+  background-color: #170707;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
+
+
+.box4{
+ 
+  height: 31em;
+  width: 20em;
+  background-color: white;
+  /* background: linear-gradient(to bottom,white,green); */
+  border-radius: 2em;
+}
+
+#q1{
+  transform: translatey(5em);
+  position: absolute;
+  left: 30em;
+  /* height: 100%; */
+  top: 15em;
+  z-index: 0;
+  transform: rotate(-50deg);
+}
+
+
+
+/* &&&&&&&&&&&&q2 hover %%%%%%%%%%% */
+
+#q1:hover{
+  z-index: 999;
+  background-color: rgb(4, 73, 67);
+ }
+ 
+ #q1:hover .banana img{
+   box-shadow: 0em 0em 10em 2em red;
+ }
+ 
+ #q1:hover .group h2{
+   color: white;
+ }
+
+ #q1:hover .group #h1 span{
+  color: white;
+ }
+
+#q2:hover{
+  z-index: 999;
+  background-color: rgb(4, 73, 67);
+ }
+ 
+ #q2:hover .graips img{
+   box-shadow: 0em 0em 10em 2em red;
+ }
+ 
+ #q2:hover .group h2{
+   color: white;
+ }
+
+ 
+ #q2:hover .group #h1 span{
+  color: white;
+ }
+
+ /* &&&&&&&&&77&&&&&&& */
+
+ #q3:hover{
+  z-index: 999;
+  background-color: rgb(4, 73, 67);
+ }
+ 
+ #q3:hover .apple img{
+   box-shadow: 0em 0em 10em 2em rgb(36, 239, 205);
+ }
+ 
+ #q3:hover .group h2{
+   color: white;
+ }
+
+ 
+ #q3:hover .group #h1 span{
+  color: white;
+ }
+ /* &&&&&&&&&& q3 hover%%%%%%%%%%% */
+ 
+#q4:hover{
+  z-index: 999;
+  background-color: rgb(4, 73, 67);
+ }
+ 
+ #q4:hover .pine img{
+  /* padding: 0em 1em; */
+  border-radius: 1em;
+   box-shadow: 0em 0em 10em 2em rgb(20, 239, 236);
+ }
+ 
+ #q4:hover .group h2{
+   color: white;
+ }
+
+ 
+ #q4:hover .group #h1 span{
+  color: white;
+ }
+
+ /* ^^^^^^^^^^^^^^^^ */
+
+#q2{
+  z-index: 0;
+  /* position: absolute; */
+  transform: rotate(-40deg);
+}
+
+
+
+#q3{
+  z-index: 0;
+  /* position: absolute; */
+  transform: rotate(40deg);
+}
+
+
+
+#q4{
+ z-index: 0;
+  top: 2em;
+  position: absolute;
+  top: 15em;
+  transform: rotate(50deg);
+  left: 96em;
+ 
+}
+
+
+.banana img{
+  position: absolute;
+  bottom: 3vh;
+  width: 100%;
+  padding: 0em 0.5em;
+  height: 40%;
+  /* height: 70%;
+  padding-top: 15em;
+  border-radius: 100%; */
+  border-radius: 3em;
+}
+
+.graips img{
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  /* padding-top: 10em; */
+  border-radius: 3em;
+  bottom: 0em;
+}
+
+
+.apple img{
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  border-radius: 3em;
+  bottom: 0em;
+}
+
+
+.pine img{
+  width: 100%;
+  position: absolute;
+  bottom: 3vh;
+  width: 100%;
+  height: 40%;
+}
+
+
+.group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  padding-top: 2em;
+}
+
+
+.group h2{
+  color: rgb(0, 0, 0);
+  font-size: 2.8em;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.group #h1 span{
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+  .menu{
+    display: none;
+  }
+
+
+  .second{
+    width: 100%;
+    padding: 0em 0em;
+  }
+
+
+  .s-c{
+    flex-direction: column;
+    gap: 2em;
+  }
+
+
+  .food{
+    width: 100%;
+    margin-top: 10em;
+    padding: 0em 0em ;
+    margin-bottom: 11em;
+  }
+
+  .fd{
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 13em;
+  }
+
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar{
+    position: static;
+  }
+
+  .trending{
+    width: 100%;
+    padding: 0em 0em ;
+    height: 80vh;
+  }
+
+  .bg{
+    width: 100%;
+    padding: 0em 0em ;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .box4{
+    height: 20em;
+    flex-direction: column;
+    
+  }
+  #q1{
+    transform: translate(none);
+    transform: rotate(none);
+  }
+}

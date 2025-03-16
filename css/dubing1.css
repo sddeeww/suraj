@@ -1,0 +1,110 @@
+@media (max-width: 500px) {
+  .header {
+    width: 100%;
+  }
+
+  .f-p {
+    min-height: 120vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .main1 {
+    margin-top: 8em;
+  }
+
+  #q1 {
+    font-size: 2em;
+  }
+
+  #q2 {
+    font-size: 2em;
+  }
+
+  .section1 {
+    min-height: 100vh;
+    width: 100%;
+    transform: none;
+    box-shadow: none;
+    margin-bottom: 10em;
+  }
+
+  .section1:hover {
+    transform: rotatex(0deg);
+  }
+
+  .article1 {
+    flex-direction: column;
+    margin-bottom: 10em;
+    gap: 4em;
+  }
+
+  .left {
+    width: 110%;
+    color: white;
+  }
+
+  .left:hover {
+    background-color: black;
+    box-shadow: 0em 0em 1em 1em rgb(78, 220, 230);
+  }
+
+  .left input {
+    width: 90%;
+  }
+
+  .right {
+    width: 100%;
+    padding: 0em 1em;
+  }
+
+  .section2 {
+    width: 100%;
+    margin-left: 0em;
+    margin-top: 40em;
+  }
+
+  .section2:hover {
+    transform: none;
+  }
+
+  .vlog {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+
+  .section4 {
+    width: 100%;
+    min-height: 200vh;
+  }
+
+  .divide {
+    flex-direction: column;
+    gap: 7em;
+  }
+
+  .fell {
+    width: 100%;
+  }
+
+  .form {
+    width: 130%;
+  }
+
+  .footer {
+    height: 100%;
+  }
+
+  .foot {
+    height: 100%;
+    padding: 0em 1em;
+  }
+
+  .bar .fa {
+    color: white;
+    font-size: 1.3em;
+    display: block;
+  }
+}
